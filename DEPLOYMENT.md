@@ -5,73 +5,74 @@
 ✅ Local git repository initialized and connected
 ✅ Codebase pushed to GitHub
 
-## Required GitHub Secrets
+## Vercel Deployment Setup
 
-To complete the deployment setup, add these secrets in your GitHub repository:
+### 1. Connect Repository to Vercel
+1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+2. Click "New Project"
+3. Import your GitHub repository: `triepod-ai/triepod-ai`
+4. Configure project settings:
+   - Framework Preset: Next.js
+   - Build Command: `npm run build`
+   - Output Directory: `.next`
+   - Install Command: `npm ci`
 
-1. Go to: `https://github.com/triepod-ai/triepod-ai/settings/secrets/actions`
-2. Add the following secrets:
+### 2. Environment Variables
+Add these environment variables in Vercel Dashboard → Settings → Environment Variables:
 
-### SSH Deployment Secrets
-- `DEPLOY_SSH_KEY`: Private SSH key for accessing fileserver
-- `FILESERVER_HOST`: IP address or hostname of your fileserver
-- `FILESERVER_USER`: Username for SSH access (likely `bryan`)
+#### Required for Production
+- `NEXTAUTH_SECRET`: Secret for NextAuth.js authentication
+- `NEXTAUTH_URL`: Production URL (e.g., `https://triepod-ai.vercel.app`)
 
-### Environment Variables (if needed)
+#### Optional API Keys
 - `DATABASE_URL`: Production database connection string
-- `NEXTAUTH_SECRET`: Secret for NextAuth.js
-- `OPENAI_API_KEY`: OpenAI API key
-- `ANTHROPIC_API_KEY`: Anthropic API key
+- `OPENAI_API_KEY`: OpenAI API key for AI features
+- `ANTHROPIC_API_KEY`: Anthropic API key for Claude integration
 
-## SSH Key Setup
+### 3. Custom Domain (Optional)
+1. In Vercel Dashboard → Settings → Domains
+2. Add your custom domain: `triepod.ai`
+3. Configure DNS records as instructed by Vercel
 
-Generate SSH key for GitHub Actions:
-```bash
-ssh-keygen -t ed25519 -C "github-actions@triepod.ai" -f ~/.ssh/triepod_deploy
-```
+## Configuration Files
 
-Add public key to fileserver:
-```bash
-ssh-copy-id -i ~/.ssh/triepod_deploy.pub bryan@fileserver
-```
-
-Copy private key content for GitHub secret:
-```bash
-cat ~/.ssh/triepod_deploy
-```
-
-## Workflow Files Created
-
-### `.github/workflows/deploy.yml`
-- Triggers on push to main branch
-- Builds Next.js application
-- Deploys to fileserver via SSH/rsync
-- Manages PM2 process
+### `vercel.json`
+- Production build configuration
+- Framework detection
+- Environment settings
+- Regional deployment (US East)
 
 ### `.github/workflows/ci.yml`
+- Continuous integration workflow
 - Runs on all pushes and PRs
 - Linting and type checking
 - Build verification
 
-## Deployment Script
+## Deployment Process
 
-`scripts/deploy.sh` - Manual deployment script for fileserver
+### Automatic Deployment
+- Push to `main` branch triggers automatic deployment
+- Vercel builds and deploys automatically
+- Preview deployments for pull requests
+
+### Manual Deployment
+```bash
+# Using Vercel CLI
+npm i -g vercel
+vercel --prod
+```
 
 ## Next Steps
 
-1. ✅ Add GitHub secrets (SSH key, fileserver details)
-2. Test deployment by pushing to main branch
-3. Verify site loads at https://triepod.ai
-4. Configure nginx proxy manager if needed
+1. ✅ Configure Vercel project
+2. ✅ Set environment variables
+3. Test deployment by pushing to main branch
+4. Configure custom domain (optional)
+5. Set up production database (if needed)
 
-## Manual Deployment
+## Monitoring
 
-To deploy manually:
-```bash
-ssh bryan@fileserver
-cd /var/www/triepod.ai
-git pull origin main
-npm ci --production
-npm run build
-pm2 restart triepod-ai
-```
+- **Deployment Status**: Vercel Dashboard
+- **Build Logs**: Available in Vercel deployment details
+- **Performance**: Vercel Analytics (optional)
+- **Errors**: Vercel Functions logs
