@@ -107,7 +107,7 @@ export default function Home() {
               <p className="text-muted-foreground mb-6">
                 On May 29th, we created a legal research document that would have cost 
                 $16,000 in traditional legal fees. The result? The employer voluntarily 
-                agreed to accommodate our client's disability needs without litigation.
+                agreed to accommodate our client&apos;s disability needs without litigation.
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">

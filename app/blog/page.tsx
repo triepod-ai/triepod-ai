@@ -28,7 +28,7 @@ export default function BlogPage() {
                 Bryan Thompson – A Journey of Resilience
               </h2>
               <p className="text-muted-foreground mb-4">
-                The inspiring story of Triepod.ai's founder, from tech expert to resilient innovator.
+                The inspiring story of Triepod.ai&apos;s founder, from tech expert to resilient innovator.
               </p>
               <div className="text-sm text-muted-foreground">
                 March 12, 2025 • 4 min read
@@ -44,7 +44,7 @@ export default function BlogPage() {
                 The Heart Behind the Innovator
               </h2>
               <p className="text-muted-foreground mb-4">
-                Meet the family supporting Bryan Thompson's vision for AI innovation.
+                Meet the family supporting Bryan Thompson&apos;s vision for AI innovation.
               </p>
               <div className="text-sm text-muted-foreground">
                 March 12, 2025 • 3 min read

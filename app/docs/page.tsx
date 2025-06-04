@@ -16,7 +16,7 @@ export default function DocsPage() {
             <div>
               <h3 className="text-xl font-medium mb-2">Core Concepts</h3>
               <p className="text-muted-foreground mb-4">
-                Understand the fundamental concepts behind Triepod.ai's RAG technology and AI capabilities.
+                Understand the fundamental concepts behind Triepod.ai&apos;s RAG technology and AI capabilities.
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function DocsPage() {
             <div>
               <h3 className="text-xl font-medium mb-2">Custom Integrations</h3>
               <p className="text-muted-foreground mb-4">
-                Build custom integrations and extend Triepod.ai's functionality.
+                Build custom integrations and extend Triepod.ai&apos;s functionality.
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function DocsPage() {
         <section className="bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Need Help?</h2>
           <p className="text-muted-foreground mb-4">
-            Can't find what you're looking for in the documentation?
+            Can&apos;t find what you&apos;re looking for in the documentation?
           </p>
           <div className="space-x-4">
             <a href="/help/contact" className="text-primary hover:underline">Contact Support</a>

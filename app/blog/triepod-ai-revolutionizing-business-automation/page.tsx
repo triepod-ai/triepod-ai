@@ -30,10 +30,10 @@ export default function ArticlePage() {
               <strong className="text-foreground">Retrieval Augmented Generation (RAG):</strong> Retrieves relevant data from vast knowledge bases and generates accurate, contextual answers.
             </li>
             <li>
-              <strong className="text-foreground">Vector Search with Pinecone:</strong> Employs Pinecone's vector database for fast, semantic searches across large datasets.
+              <strong className="text-foreground">Vector Search with Pinecone:</strong> Employs Pinecone&apos;s vector database for fast, semantic searches across large datasets.
             </li>
             <li>
-              <strong className="text-foreground">Seamless LLM Integration:</strong> Works with OpenAI's language models to leverage cutting-edge natural language processing.
+              <strong className="text-foreground">Seamless LLM Integration:</strong> Works with OpenAI&apos;s language models to leverage cutting-edge natural language processing.
             </li>
             <li>
               <strong className="text-foreground">Modular Design:</strong> Continuously evolving with new modules to enhance functionality for specialized tasks.
@@ -44,10 +44,10 @@ export default function ArticlePage() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Why Triepod.ai Stands Out</h2>
           <p className="text-muted-foreground mb-4">
-            Triepod.ai's strength lies in its adaptability and accessibility. Its template-based design allows developers to create custom modules tailored to specific applications, while its user-friendly interface ensures that even non-technical users can harness its power.
+            Triepod.ai&apos;s strength lies in its adaptability and accessibility. Its template-based design allows developers to create custom modules tailored to specific applications, while its user-friendly interface ensures that even non-technical users can harness its power.
           </p>
           <blockquote className="border-l-4 border-primary pl-4 italic my-6">
-            "Triepod.ai isn't just about technology—it's about empowering businesses to solve problems creatively and efficiently."
+            &quot;Triepod.ai isn&apos;t just about technology—it&apos;s about empowering businesses to solve problems creatively and efficiently.&quot;
             <footer className="text-muted-foreground mt-2">— Bryan Thompson, Founder</footer>
           </blockquote>
         </section>

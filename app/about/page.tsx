@@ -7,7 +7,7 @@ export default function AboutPage() {
         <section className="bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-muted-foreground mb-6">
-            At Triepod, we're on a mission to democratize AI technology and make advanced automation accessible to businesses of all sizes. Through our innovative RAG (Retrieval Augmented Generation) technology, we're transforming how organizations handle complex workflows and decision-making processes.
+            At Triepod, we&apos;re on a mission to democratize AI technology and make advanced automation accessible to businesses of all sizes. Through our innovative RAG (Retrieval Augmented Generation) technology, we&apos;re transforming how organizations handle complex workflows and decision-making processes.
           </p>
         </section>
 
@@ -18,7 +18,7 @@ export default function AboutPage() {
               Founded by Bryan Thompson, a Senior Technical professional with extensive experience in enterprise systems and financial technology, Triepod emerged from a vision to make AI more practical and accessible.
             </p>
             <p className="text-muted-foreground">
-              After facing personal challenges during the COVID-19 pandemic, Bryan was inspired to create technology that could help businesses navigate their own challenges more effectively. Working with industry leading fortune 500 companies like Elior-North America, Fiserv, and Paypal, gave him a unique insight into the needs of modern businesses and led to the development of Triepod's unique approach to AI-powered automation.
+              After facing personal challenges during the COVID-19 pandemic, Bryan was inspired to create technology that could help businesses navigate their own challenges more effectively. Working with industry leading fortune 500 companies like Elior-North America, Fiserv, and Paypal, gave him a unique insight into the needs of modern businesses and led to the development of Triepod&apos;s unique approach to AI-powered automation.
             </p>
           </div>
         </section>
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Our Technology</h2>
           <div className="space-y-4">
             <p className="text-muted-foreground">
-              Triepod's core technology combines advanced RAG capabilities with a modular architecture, allowing for:
+              Triepod&apos;s core technology combines advanced RAG capabilities with a modular architecture, allowing for:
             </p>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground">
               <li>Intelligent workflow detection and automation</li>
@@ -57,7 +57,7 @@ export default function AboutPage() {
             <div>
               <h3 className="text-lg font-medium mb-2">Innovation</h3>
               <p className="text-muted-foreground">
-                We constantly push the boundaries of what's possible with AI technology.
+                We constantly push the boundaries of what&apos;s possible with AI technology.
               </p>
             </div>
             <div>
@@ -75,7 +75,7 @@ export default function AboutPage() {
             <div>
               <h3 className="text-lg font-medium mb-2">Security</h3>
               <p className="text-muted-foreground">
-                We prioritize the security and privacy of our users' data.
+                We prioritize the security and privacy of our users&apos; data.
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
         <section className="bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Join Our Team</h2>
           <p className="text-muted-foreground mb-4">
-            We're always looking for talented individuals who share our passion for innovation and technology.
+            We&apos;re always looking for talented individuals who share our passion for innovation and technology.
           </p>
           <a href="/careers" className="text-primary hover:underline">
             View Open Positions →

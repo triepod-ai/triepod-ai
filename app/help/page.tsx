@@ -50,7 +50,7 @@ export default function HelpPage() {
         <section className="bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Still Need Help?</h2>
           <p className="text-muted-foreground mb-4">
-            Can't find what you're looking for? Our support team is ready to assist you.
+            Can&apos;t find what you&apos;re looking for? Our support team is ready to assist you.
           </p>
           <a href="/help/contact" className="inline-block text-primary hover:underline">
             Contact Support →

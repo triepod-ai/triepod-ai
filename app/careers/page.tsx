@@ -9,7 +9,7 @@ export default function CareersPage() {
         <div className="border rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4">Open Positions</h2>
           <p className="text-muted-foreground mb-4">
-            We're always looking for talented individuals to join our team.
+            We&apos;re always looking for talented individuals to join our team.
           </p>
           <p className="text-muted-foreground">
             No open positions at the moment. Check back soon!

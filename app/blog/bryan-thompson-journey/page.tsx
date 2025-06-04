@@ -10,7 +10,7 @@ export default function ArticlePage() {
 
       <div className="prose prose-gray dark:prose-invert max-w-none">
         <p className="lead text-xl text-muted-foreground mb-8">
-          Bryan Thompson, a Senior Technical Lead at Lodestar Technologies, is more than just a tech expert—he's a testament to resilience and a driving force behind Triepod.ai.
+          Bryan Thompson, a Senior Technical Lead at Lodestar Technologies, is more than just a tech expert—he&apos;s a testament to resilience and a driving force behind Triepod.ai.
         </p>
 
         <section className="mb-12">
@@ -26,10 +26,10 @@ export default function ArticlePage() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">The COVID-19 Turning Point</h2>
           <p className="text-muted-foreground mb-4">
-            In 2020, Bryan's life took a dramatic turn when he contracted COVID-19, resulting in severe complications and the loss of his leg. News reports from the time highlighted his struggle and recovery.
+            In 2020, Bryan&apos;s life took a dramatic turn when he contracted COVID-19, resulting in severe complications and the loss of his leg. News reports from the time highlighted his struggle and recovery.
           </p>
           <blockquote className="border-l-4 border-primary pl-4 italic my-6">
-            "COVID-19 showed me how fragile life is and how technology can be a lifeline."
+            &quot;COVID-19 showed me how fragile life is and how technology can be a lifeline.&quot;
             <footer className="text-muted-foreground mt-2">— Bryan Thompson</footer>
           </blockquote>
         </section>
@@ -37,7 +37,7 @@ export default function ArticlePage() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">A Passion for Empowering Others</h2>
           <p className="text-muted-foreground mb-4">
-            Bryan's passion lies in democratizing technology. At Lodestar, he applies his skills to mergers and analytics, but Triepod.ai reflects his broader vision: to build a system that empowers organizations, big and small, to innovate.
+            Bryan&apos;s passion lies in democratizing technology. At Lodestar, he applies his skills to mergers and analytics, but Triepod.ai reflects his broader vision: to build a system that empowers organizations, big and small, to innovate.
           </p>
         </section>
       </div>

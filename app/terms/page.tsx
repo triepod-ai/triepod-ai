@@ -53,7 +53,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">4. Disclaimers and Limitations</h2>
             <p className="text-muted-foreground">
-              Our Services are provided "as is" without warranties of any kind. To the fullest extent permitted by law, Triepod.ai will not be liable for any indirect, incidental, or consequential damages arising from your use of our Services.
+              Our Services are provided &quot;as is&quot; without warranties of any kind. To the fullest extent permitted by law, Triepod.ai will not be liable for any indirect, incidental, or consequential damages arising from your use of our Services.
             </p>
           </section>
 

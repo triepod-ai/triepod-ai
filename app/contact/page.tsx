@@ -7,7 +7,7 @@ export default function ContactPage() {
         <section className="bg-card rounded-lg p-6 shadow-sm">
           <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
           <p className="text-muted-foreground mb-6">
-            Have questions about Triepod.ai? We'd love to hear from you.
+            Have questions about Triepod.ai? We&apos;d love to hear from you.
           </p>
           <div className="grid gap-6 md:grid-cols-2">
             <div>
