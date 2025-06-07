@@ -51,7 +51,7 @@ export default function ClaudeCliMcpDocumentation() {
           </h2>
           <p className="text-gray-700 mb-4">
             The Claude CLI MCP Server is a minimal yet powerful Model Context Protocol (MCP) server that exposes 
-            Claude Code CLI functionality through standardized tools. It enables programmatic access to Claude's 
+            Claude Code CLI functionality through standardized tools. It enables programmatic access to Claude&apos;s 
             capabilities via secure subprocess execution with JSON responses.
           </p>
           <div className="bg-blue-50 p-4 rounded-lg">
