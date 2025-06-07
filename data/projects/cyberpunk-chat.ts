@@ -6,7 +6,7 @@ export const cyberpunkChat: Project = {
   title: 'Cyberpunk Chat',
   tagline: 'Max Headroom-inspired cyberpunk terminal chat interface with multiple conversation threads and offline resilience',
   description: 'A sophisticated terminal-based chat application that brings the aesthetic and spirit of Max Headroom to modern AI conversations. Features multiple conversation threads, offline fallback capability, persistent storage, and a circuit breaker pattern for API resilience. Built with a cyberpunk aesthetic including visual glitch effects and monochrome styling that captures the essence of 1980s digital rebellion.',
-  category: 'ai-research',
+  category: 'experimental',
   status: 'beta',
   featured: false,
   

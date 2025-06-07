@@ -14,13 +14,18 @@ export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledge
 
 // Export all projects as an array
 export const allProjects: Project[] = [
+  // Featured Professional Projects
   mergerBalanceAutomation,
   vectorCodeLens,
   triepodKnowledgeBase,
+  
+  // Other Professional Projects
   disabilityRightsAI,
   directoryTreeAI,
   aiResearchEngine,
   claudeCliMcp,
+  
+  // Experimental Projects
   triepodEncoderRing,
   cyberpunkChat,
 ];
@@ -37,6 +42,12 @@ export const getProjectsByCategory = (category: string) =>
 // Get project by slug
 export const getProjectBySlug = (slug: string) => 
   allProjects.find(project => project.slug === slug);
+
+// Get professional projects (excluding experimental)
+export const professionalProjects = allProjects.filter(project => project.category !== 'experimental');
+
+// Get experimental projects
+export const experimentalProjects = allProjects.filter(project => project.category === 'experimental');
 
 // Projects page configuration
 export const projectsPageData: ProjectsPageData = {
@@ -80,6 +91,11 @@ export const projectsPageData: ProjectsPageData = {
       value: 'developer-tools',
       label: 'Developer Tools',
       description: 'Development utilities and integration tools'
+    },
+    {
+      value: 'experimental',
+      label: 'Experimental',
+      description: 'Creative and experimental projects with unique aesthetics'
     }
   ]
 };

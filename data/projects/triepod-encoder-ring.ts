@@ -10,7 +10,7 @@ export const triepodEncoderRing: Project = {
 Built with security and uniqueness in mind, the system uses SHA256 hashing to ensure deterministic results while maintaining the aesthetic appeal of cyberpunk nomenclature. Each generated email follows the pattern: {botid}-{noid}-{vector}-{encoded_email_part}@triepod.ai, creating instantly recognizable yet unique identifiers.
 
 The project features comprehensive logging, cross-platform compatibility with ANSI color support, and a robust encoding system that prevents conflicts while maintaining readability. It's particularly useful for developers, security researchers, and anyone needing memorable email addresses with a distinctive cyberpunk aesthetic.`,
-  category: 'automation',
+  category: 'experimental',
   status: 'launched',
   featured: false,
   

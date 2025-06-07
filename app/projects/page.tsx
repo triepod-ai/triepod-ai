@@ -29,7 +29,7 @@ export default function ProjectsPage() {
       
       {/* Projects Tabs */}
       <Tabs defaultValue="all" className="w-full">
-        <TabsList className="grid w-full grid-cols-3 md:grid-cols-6 mb-8">
+        <TabsList className="grid w-full grid-cols-3 md:grid-cols-7 mb-8">
           <TabsTrigger value="all">All Projects</TabsTrigger>
           {categories.map((category) => (
             <TabsTrigger key={category.value} value={category.value}>

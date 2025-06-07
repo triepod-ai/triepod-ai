@@ -161,7 +161,7 @@ export default function VectorCodeLensDocumentation() {
             <div>
               <h3 className="text-lg font-semibold mb-3">Analyze a Codebase</h3>
               <div className="bg-black text-white p-4 rounded-lg font-mono text-sm overflow-x-auto">
-                <div className="text-gray-400">// Using the MCP tool interface</div>
+                <div className="text-gray-400">{"// Using the MCP tool interface"}</div>
                 <div className="text-blue-400">const</div> <div className="text-white">result = </div><div className="text-blue-400">await</div> <div className="text-yellow-400">codeAnalyzer</div><div className="text-white">({`{`}</div>
                 <div className="ml-4 text-green-400">directory: <div className="text-red-400">&ldquo;/path/to/your/project&rdquo;</div>,</div>
                 <div className="ml-4 text-green-400">filePatterns: [<div className="text-red-400">&ldquo;*.ts&rdquo;</div>, <div className="text-red-400">&ldquo;*.js&rdquo;</div>],</div>
@@ -173,7 +173,7 @@ export default function VectorCodeLensDocumentation() {
             <div>
               <h3 className="text-lg font-semibold mb-3">Query Your Code</h3>
               <div className="bg-black text-white p-4 rounded-lg font-mono text-sm overflow-x-auto">
-                <div className="text-gray-400">// Ask natural language questions</div>
+                <div className="text-gray-400">{"// Ask natural language questions"}</div>
                 <div className="text-blue-400">const</div> <div className="text-white">results = </div><div className="text-blue-400">await</div> <div className="text-yellow-400">queryCodebase</div><div className="text-white">({`{`}</div>
                 <div className="ml-4 text-green-400">query: <div className="text-red-400">&ldquo;How are errors handled in this codebase?&rdquo;</div>,</div>
                 <div className="ml-4 text-green-400">limit: <div className="text-purple-400">5</div></div>
@@ -184,7 +184,7 @@ export default function VectorCodeLensDocumentation() {
             <div>
               <h3 className="text-lg font-semibold mb-3">Using the Unified Tool</h3>
               <div className="bg-black text-white p-4 rounded-lg font-mono text-sm overflow-x-auto">
-                <div className="text-gray-400">// Unified vectorCodeLens tool</div>
+                <div className="text-gray-400">{"// Unified vectorCodeLens tool"}</div>
                 <div className="text-blue-400">const</div> <div className="text-white">response = </div><div className="text-blue-400">await</div> <div className="text-yellow-400">vectorCodeLens</div><div className="text-white">({`{`}</div>
                 <div className="ml-4 text-green-400">operation: <div className="text-red-400">&ldquo;analyze&rdquo;</div>,</div>
                 <div className="ml-4 text-green-400">codebasePath: <div className="text-red-400">&ldquo;./src&rdquo;</div>,</div>

@@ -2,7 +2,7 @@
 
 export type ProjectStatus = 'concept' | 'planning' | 'development' | 'beta' | 'launched' | 'maintenance';
 
-export type ProjectCategory = 'ai-research' | 'legal-tech' | 'accessibility' | 'data-analysis' | 'automation' | 'other';
+export type ProjectCategory = 'ai-research' | 'legal-tech' | 'accessibility' | 'data-analysis' | 'automation' | 'developer-tools' | 'experimental' | 'other';
 
 export interface ProjectFeature {
   title: string;
