@@ -8,7 +8,7 @@ import { featuredProjects } from '@/data/projects';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
+      {/* Hero Section - Updated for testing */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 z-0" />
         <div className="container mx-auto px-4 relative z-10">
