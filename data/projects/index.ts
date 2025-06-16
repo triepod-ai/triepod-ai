@@ -13,13 +13,17 @@ import { ollamaMcpWrapper } from './ollama-mcp-wrapper';
 import { memorySystemMcp } from './memory-system-mcp';
 import { docucrewAiDocumentationGenerator } from './docucrew-ai-documentation-generator';
 import { smartmatchResumeAdvisor } from './smartmatch-resume-advisor';
+import { appwriteAiAssistant } from './appwrite-ai-assistant';
+import { n8nWorkflowGeneratorMcp } from './n8n-workflow-generator-mcp';
 
 // Export individual projects
-export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper, memorySystemMcp, docucrewAiDocumentationGenerator, smartmatchResumeAdvisor };
+export { disabilityRightsAI, directoryTreeAI, aiResearchEngine, triepodKnowledgeBase, claudeCliMcp, vectorCodeLens, mergerBalanceAutomation, triepodEncoderRing, cyberpunkChat, stellarTrielink, ollamaMcpWrapper, memorySystemMcp, docucrewAiDocumentationGenerator, smartmatchResumeAdvisor, appwriteAiAssistant, n8nWorkflowGeneratorMcp };
 
 // Export all projects as an array
 export const allProjects: Project[] = [
   // Featured Professional Projects
+  n8nWorkflowGeneratorMcp,
+  appwriteAiAssistant,
   smartmatchResumeAdvisor,
   docucrewAiDocumentationGenerator,
   memorySystemMcp,
