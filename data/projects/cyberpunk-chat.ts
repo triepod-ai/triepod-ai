@@ -30,7 +30,7 @@ export const cyberpunkChat: Project = {
       description: 'Automatic fallback to offline mode when API is unavailable, with seamless recovery when connectivity returns.'
     },
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'Persistent Storage',
       description: 'Dual-backend persistence with SQLite primary and JSON backup ensures conversation history is never lost.'
     },

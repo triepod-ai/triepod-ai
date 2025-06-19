@@ -25,12 +25,12 @@ export const mergerBalanceAutomation: Project = {
   
   features: [
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'AI-Powered Semantic Matching',
       description: 'Vector-based similarity matching using transformer models to handle inconsistent naming conventions and identify data relationships.'
     },
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'Multi-Version Architecture',
       description: 'Three implementations: standard exact matching, enhanced with comprehensive logging, and vector-based for maximum accuracy.'
     },

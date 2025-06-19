@@ -46,7 +46,7 @@ This solution addresses the growing need for local AI model integration while ma
       description: 'Fully compliant with Model Context Protocol specifications, ensuring compatibility with Claude Desktop and other MCP clients.'
     },
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'Local Model Privacy',
       description: 'Enables private, local AI model usage while maintaining Claude&apos;s conversational interface and capabilities.'
     },

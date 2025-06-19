@@ -28,7 +28,7 @@ Key innovations include intelligent code chunking with structural awareness, sem
   
   features: [
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'Semantic Code Analysis',
       description: 'Understand code structure, patterns, and relationships using advanced LLM analysis and vector embeddings.'
     },
@@ -38,7 +38,7 @@ Key innovations include intelligent code chunking with structural awareness, sem
       description: 'Ask questions about your codebase in plain English and get precise, contextual answers with code references.'
     },
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'Vector-Powered Search',
       description: 'Semantic search capabilities using Qdrant vector database for finding similar code patterns and concepts.'
     },

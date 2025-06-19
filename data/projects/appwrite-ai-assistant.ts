@@ -11,7 +11,7 @@ The platform combines intelligent documentation search, AI-powered code generati
 
 Key innovations include Retrieval-Augmented Generation (RAG) for context-aware responses, multi-modal AI integration for text and code understanding, real-time ML inference with sub-100ms latency, and hybrid LLM approaches combining open-source and commercial models for optimal performance and cost efficiency.`,
   category: 'enterprise',
-  status: 'production',
+  status: 'launched',
   featured: true,
   
   technologies: [
@@ -32,7 +32,7 @@ Key innovations include Retrieval-Augmented Generation (RAG) for context-aware r
   
   features: [
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'Intelligent Documentation Search',
       description: 'Semantic search across documentation using sentence-transformers embeddings with 92% accuracy and sub-50ms latency for enhanced developer productivity.'
     },
@@ -57,7 +57,7 @@ Key innovations include Retrieval-Augmented Generation (RAG) for context-aware r
       description: 'Production-ready Kubernetes deployment with autoscaling, health monitoring, and multi-replica configuration supporting 10K+ concurrent users.'
     },
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'Vector Database Integration',
       description: 'Dual vector store architecture using ChromaDB and Qdrant for optimized semantic search and code similarity matching with persistent storage.'
     }

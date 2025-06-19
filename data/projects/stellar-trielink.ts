@@ -34,12 +34,12 @@ export const stellarTrielink: Project = {
       description: 'Memory-efficient caching with TTL policies, automatic eviction, and intelligent cache hit optimization for reduced API costs.'
     },
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'Content Chunking',
       description: 'Intelligent content splitting with context preservation through overlapping boundaries for processing large documents.'
     },
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'Multi-Provider Support',
       description: 'Adapters for Ollama, OpenAI, and local models with consistent interface and automatic failover capabilities.'
     },

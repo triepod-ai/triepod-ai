@@ -43,7 +43,7 @@ export const claudeCliMcp: Project = {
       description: 'Input validation, command whitelisting, and timeout protection against injection attacks.'
     },
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'JSON API',
       description: 'Clean JSON responses with token usage tracking and error handling.'
     },

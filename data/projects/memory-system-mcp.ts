@@ -24,12 +24,12 @@ Built for enterprise-grade reliability with automatic fallback mechanisms, the s
   
   features: [
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'Dual-Backend Architecture',
       description: 'Neo4j primary storage with automatic file-based fallback for maximum reliability and zero downtime.'
     },
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'Knowledge Graph Operations',
       description: 'Complete CRUD operations for entities, relationships, and observations with intelligent conflict resolution.'
     },

@@ -28,12 +28,12 @@ export const triepodKnowledgeBase: Project = {
   
   features: [
     {
-      icon: 'Database',
+      icon: 'Server',
       title: 'Hybrid Vector Database',
       description: 'Combines PostgreSQL for structured data with Pinecone for high-performance vector search and semantic similarity matching.'
     },
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'Advanced Document Processing',
       description: 'Intelligent chunking with heading structure analysis, semantic tag extraction, and multi-language support.'
     },

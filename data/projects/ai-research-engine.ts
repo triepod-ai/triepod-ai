@@ -31,7 +31,7 @@ export const aiResearchEngine: Project = {
     {
       title: 'Knowledge Graph Integration',
       description: 'Build and query complex relationship networks with Neo4j',
-      icon: 'Network'
+      icon: 'Globe'
     },
     {
       title: 'Semantic Vector Search',

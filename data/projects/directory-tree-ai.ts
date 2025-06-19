@@ -32,12 +32,12 @@ export const directoryTreeAI: Project = {
     {
       title: 'Semantic Code Analysis',
       description: 'Understands imports, exports, and dependencies across multiple languages',
-      icon: 'Brain'
+      icon: 'Cpu'
     },
     {
       title: 'Interactive Visualization',
       description: 'Beautiful, interactive tree visualizations with filtering and search',
-      icon: 'TreePine'
+      icon: 'GitBranch'
     },
     {
       title: 'Pattern Detection',
@@ -47,7 +47,7 @@ export const directoryTreeAI: Project = {
     {
       title: 'Smart Recommendations',
       description: 'AI-powered suggestions for file organization and structure improvements',
-      icon: 'Lightbulb'
+      icon: 'Bulb'
     }
   ],
   

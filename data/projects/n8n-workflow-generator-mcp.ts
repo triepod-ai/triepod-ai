@@ -7,7 +7,7 @@ export const n8nWorkflowGeneratorMcp: Project = {
   shortDescription: 'AI-powered n8n workflow generation with comprehensive MCP server integration and advanced modification tools',
   fullDescription: 'A sophisticated Model Context Protocol (MCP) server that transforms natural language descriptions into complete n8n workflow JSON files using Claude Code. This enterprise-grade solution combines AI-powered workflow generation with comprehensive workflow management capabilities, including real-time modification, validation, and deployment to n8n instances. The system features a 5-step sequential reasoning process, extensive node library support, and advanced workflow manipulation tools for enterprise automation needs.',
   category: 'automation',
-  status: 'production',
+  status: 'launched',
   featured: true,
   
   technologies: [
@@ -25,7 +25,7 @@ export const n8nWorkflowGeneratorMcp: Project = {
   
   features: [
     {
-      icon: 'Brain',
+      icon: 'Cpu',
       title: 'AI-Powered Generation',
       description: 'Transform natural language descriptions into complete n8n workflows using advanced 5-step reasoning process'
     },
