@@ -4,13 +4,13 @@ export const disabilityRightsAI: Project = {
   id: 'disability-rights-ai',
   slug: 'disability-rights-ai',
   
-  title: 'Disability Rights AI Assistant',
-  tagline: 'Transform complex discrimination cases into powerful legal documents',
-  description: 'Revolutionary AI technology that creates enterprise-grade disability rights documentation at 95% less cost than traditional legal services.',
-  longDescription: `Our flagship AI system empowers individuals facing discrimination to create comprehensive, 
-  legally-sound documentation that achieves results. Using advanced multi-framework analysis and educational 
-  tone optimization, the system has already proven its worth with documented $16,000+ value creation in 
-  real-world cases.`,
+  title: 'Business Legal AI Assistant',
+  tagline: 'Transform complex business legal requirements into comprehensive documentation',
+  description: 'Advanced AI technology that creates enterprise-grade legal documentation and compliance materials at 95% less cost than traditional legal services.',
+  longDescription: `Our flagship AI system helps businesses create comprehensive, legally-sound documentation 
+  for compliance and business processes. Using advanced multi-framework analysis and professional tone 
+  optimization, the system has proven its worth with documented $16,000+ value creation in real-world 
+  business applications.`,
   
   category: 'legal-tech',
   status: 'beta',
@@ -32,18 +32,18 @@ export const disabilityRightsAI: Project = {
   
   features: [
     {
-      title: 'Multi-Framework Legal Analysis',
-      description: 'Analyzes cases through ADA, FMLA, Section 504, and state law frameworks simultaneously',
+      title: 'Multi-Framework Business Analysis',
+      description: 'Analyzes business requirements through multiple legal and regulatory frameworks simultaneously',
       icon: 'Scale'
     },
     {
-      title: 'Educational Document Generation',
-      description: 'Creates collaborative, educational documents that promote voluntary compliance',
+      title: 'Professional Document Generation',
+      description: 'Creates comprehensive, professional documents that support business compliance and operations',
       icon: 'FileText'
     },
     {
-      title: 'Evidence Organization',
-      description: 'Automatically structures and presents evidence in compelling narrative format',
+      title: 'Information Organization',
+      description: 'Automatically structures and presents business information in compelling, professional format',
       icon: 'FolderOpen'
     },
     {

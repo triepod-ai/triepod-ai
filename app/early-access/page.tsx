@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Badge } from '@/components/ui/badge';
 import { toast } from 'sonner';
 
-export default function EarlyAccessPage() {
+export default function ConsultationRequestPage() {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
@@ -21,7 +21,7 @@ export default function EarlyAccessPage() {
     
     setSubmitted(true);
     setLoading(false);
-    toast.success('Successfully joined the waitlist!');
+    toast.success('Consultation request submitted successfully!');
   };
 
   if (submitted) {
@@ -31,10 +31,10 @@ export default function EarlyAccessPage() {
           <div className="mb-6">
             <CheckCircle className="h-16 w-16 text-green-500 mx-auto" />
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">You&apos;re on the List!</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">Request Received!</h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Thank you for joining our early access program. You&apos;re now among the first 
-            to experience revolutionary AI technology for disability rights advocacy.
+            Thank you for your interest in AI consulting services. We'll review your 
+            request and get back to you within 24 hours to schedule your consultation.
           </p>
           <div className="bg-white/5 rounded-xl p-6 mb-8">
             <h3 className="text-xl font-semibold mb-4">What Happens Next?</h3>
@@ -42,19 +42,19 @@ export default function EarlyAccessPage() {
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
                 <p className="text-muted-foreground">
-                  We&apos;ll send you exclusive updates on our development progress
+                  We'll contact you within 24 hours to schedule your consultation
                 </p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
                 <p className="text-muted-foreground">
-                  You&apos;ll be first to access our beta when it launches
+                  Initial consultation includes strategic assessment and recommendations
                 </p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
                 <p className="text-muted-foreground">
-                  Early access members receive special founding member pricing
+                  Receive customized AI strategy proposal tailored to your business
                 </p>
               </div>
             </div>
@@ -73,65 +73,65 @@ export default function EarlyAccessPage() {
         <div className="max-w-5xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
-            <Badge className="mb-4 animate-pulse" variant="default">
-              Limited Early Access
+            <Badge className="mb-4" variant="default">
+              Strategic AI Consulting
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 glow-text">
-              Join the Early Access Program
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              Request Your AI Strategy Consultation
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Be among the first to access revolutionary AI technology that&apos;s 
-              democratizing disability rights advocacy
+              Transform your business with strategic AI implementation. Get expert guidance 
+              from a consultant with proven Fortune 500 experience and measurable results.
             </p>
           </div>
 
           {/* Benefits Grid */}
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white/5 rounded-xl p-8">
-              <h2 className="text-2xl font-semibold mb-6">Early Access Benefits</h2>
+              <h2 className="text-2xl font-semibold mb-6">Consultation Benefits</h2>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
                   <div>
-                    <p className="font-medium">First Access to Platform</p>
+                    <p className="font-medium">Strategic AI Roadmap</p>
                     <p className="text-sm text-muted-foreground">
-                      Be among the first 1,000 users when we launch
+                      Custom implementation plan aligned with your business goals
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
                   <div>
-                    <p className="font-medium">Founding Member Pricing</p>
+                    <p className="font-medium">ROI Assessment</p>
                     <p className="text-sm text-muted-foreground">
-                      Exclusive lifetime discount for early supporters
+                      Detailed analysis of potential cost savings and revenue opportunities
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
                   <div>
-                    <p className="font-medium">Direct Feedback Channel</p>
+                    <p className="font-medium">Implementation Guidance</p>
                     <p className="text-sm text-muted-foreground">
-                      Shape the product with your input and needs
+                      Step-by-step guidance for successful AI adoption
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5" />
                   <div>
-                    <p className="font-medium">Priority Support</p>
+                    <p className="font-medium">Risk Mitigation</p>
                     <p className="text-sm text-muted-foreground">
-                      Dedicated support from our founding team
+                      Identify and address potential challenges before they impact business
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Signup Form */}
+            {/* Consultation Request Form */}
             <div className="bg-white/5 rounded-xl p-8">
-              <h2 className="text-2xl font-semibold mb-6">Reserve Your Spot</h2>
+              <h2 className="text-2xl font-semibold mb-6">Schedule Your Consultation</h2>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <Label htmlFor="name">Full Name</Label>
@@ -144,37 +144,48 @@ export default function EarlyAccessPage() {
                   />
                 </div>
                 <div>
-                  <Label htmlFor="email">Email Address</Label>
+                  <Label htmlFor="email">Business Email</Label>
                   <Input 
                     id="email" 
                     type="email" 
                     required 
-                    placeholder="john@example.com"
+                    placeholder="john@company.com"
                     className="mt-1"
                   />
                 </div>
                 <div>
-                  <Label htmlFor="organization">Organization (Optional)</Label>
+                  <Label htmlFor="company">Company</Label>
                   <Input 
-                    id="organization" 
+                    id="company" 
                     type="text" 
-                    placeholder="Your company or organization"
+                    required
+                    placeholder="Your company name"
                     className="mt-1"
                   />
                 </div>
                 <div>
-                  <Label htmlFor="use-case">Primary Use Case</Label>
+                  <Label htmlFor="role">Your Role</Label>
+                  <Input 
+                    id="role" 
+                    type="text" 
+                    required
+                    placeholder="CEO, CTO, Director, etc."
+                    className="mt-1"
+                  />
+                </div>
+                <div>
+                  <Label htmlFor="consultation-type">Consultation Focus</Label>
                   <select 
-                    id="use-case" 
+                    id="consultation-type" 
                     required
                     className="w-full px-3 py-2 bg-background border border-input rounded-md"
                   >
                     <option value="">Select your primary interest</option>
-                    <option value="individual">Individual Advocacy</option>
-                    <option value="legal">Legal Professional</option>
-                    <option value="enterprise">Enterprise Compliance</option>
-                    <option value="nonprofit">Nonprofit Organization</option>
-                    <option value="investor">Investment Interest</option>
+                    <option value="strategy">AI Strategy & Planning</option>
+                    <option value="implementation">Implementation Guidance</option>
+                    <option value="optimization">Process Optimization</option>
+                    <option value="enterprise">Enterprise AI Solutions</option>
+                    <option value="training">Team Training & Development</option>
                   </select>
                 </div>
                 <Button 
@@ -183,12 +194,11 @@ export default function EarlyAccessPage() {
                   size="lg"
                   disabled={loading}
                 >
-                  {loading ? 'Joining...' : 'Join Early Access'} 
+                  {loading ? 'Submitting...' : 'Request Consultation'} 
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
                 <p className="text-xs text-muted-foreground text-center">
-                  By joining, you agree to receive updates about our progress. 
-                  No spam, unsubscribe anytime.
+                  We'll contact you within 24 hours to schedule your consultation.
                 </p>
               </form>
             </div>
@@ -199,23 +209,23 @@ export default function EarlyAccessPage() {
             <div className="grid md:grid-cols-4 gap-6 text-center">
               <div>
                 <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-2xl font-bold">523</p>
-                <p className="text-sm text-muted-foreground">People on Waitlist</p>
+                <p className="text-2xl font-bold">50+</p>
+                <p className="text-sm text-muted-foreground">Successful Consultations</p>
               </div>
               <div>
                 <Shield className="h-8 w-8 text-primary mx-auto mb-2" />
                 <p className="text-2xl font-bold">85%</p>
-                <p className="text-sm text-muted-foreground">Success Rate</p>
+                <p className="text-sm text-muted-foreground">Implementation Success Rate</p>
               </div>
               <div>
                 <Brain className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-2xl font-bold">$16K</p>
-                <p className="text-sm text-muted-foreground">Value Created</p>
+                <p className="text-2xl font-bold">$16K+</p>
+                <p className="text-sm text-muted-foreground">Validated Value Created</p>
               </div>
               <div>
                 <TrendingUp className="h-8 w-8 text-primary mx-auto mb-2" />
-                <p className="text-2xl font-bold">$27B</p>
-                <p className="text-sm text-muted-foreground">Market Size</p>
+                <p className="text-2xl font-bold">$9B</p>
+                <p className="text-sm text-muted-foreground">State AI Initiative</p>
               </div>
             </div>
           </div>
@@ -227,26 +237,27 @@ export default function EarlyAccessPage() {
             </h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-medium mb-2">When will the platform launch?</h3>
+                <h3 className="text-lg font-medium mb-2">What's included in the consultation?</h3>
                 <p className="text-muted-foreground">
-                  We&apos;re targeting Q2 2025 for our beta launch. Early access members 
-                  will get first access as we roll out features.
+                  Your consultation includes strategic assessment, custom AI roadmap, 
+                  ROI analysis, and actionable implementation recommendations tailored 
+                  to your specific business needs.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-medium mb-2">How much will it cost?</h3>
+                <h3 className="text-lg font-medium mb-2">How much does it cost?</h3>
                 <p className="text-muted-foreground">
-                  Early access members will receive exclusive founding member pricing, 
-                  significantly discounted from standard rates. Final pricing will be 
-                  announced before launch.
+                  Initial strategic consultations are offered at competitive rates. 
+                  We'll provide transparent pricing based on your specific requirements 
+                  during our discussion.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-medium mb-2">What makes this different?</h3>
+                <h3 className="text-lg font-medium mb-2">What makes your approach different?</h3>
                 <p className="text-muted-foreground">
-                  Our AI technology has already proven it can create legal documents worth 
-                  $16,000 that achieve 85% voluntary compliance—without litigation. We&apos;re 
-                  the first to apply this approach specifically to disability rights.
+                  I bring Fortune 500 experience with proven results—including $16,000+ 
+                  in validated value creation and 85% project success rates. My approach 
+                  combines strategic thinking with practical implementation guidance.
                 </p>
               </div>
             </div>

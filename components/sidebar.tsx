@@ -9,8 +9,7 @@ import {
   Home, 
   Settings, 
   History, 
-  Star, 
-  MessageSquare,
+  Star,
   PlusCircle
 } from 'lucide-react';
 
@@ -21,10 +20,9 @@ interface SidebarProps {
 
 const sidebarLinks = [
   { icon: Home, label: 'Home', href: '/' },
-  { icon: History, label: 'Recent', href: '/recent' },
-  { icon: Star, label: 'Favorites', href: '/favorites' },
-  { icon: MessageSquare, label: 'Conversations', href: '/conversations' },
-  { icon: Settings, label: 'Settings', href: '/settings' },
+  { icon: History, label: 'Projects', href: '/projects' },
+  { icon: Star, label: 'Services', href: '/services' },
+  { icon: Settings, label: 'Contact', href: '/contact' },
 ];
 
 export function Sidebar({ isOpen, onClose }: SidebarProps) {
@@ -58,9 +56,9 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
       <ScrollArea className="h-full">
         <div className="p-4 space-y-4">
           <Button variant="outline" className="w-full justify-start" asChild>
-            <Link href="/new">
+            <Link href="/contact">
               <PlusCircle className="mr-2 h-4 w-4" />
-              New Chat
+              Get Consultation
             </Link>
           </Button>
 

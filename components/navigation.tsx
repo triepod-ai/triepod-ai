@@ -19,9 +19,9 @@ import {
 import { Sidebar } from '@/components/sidebar';
 
 const services = [
-  { name: 'AI Document Builder', href: '/early-access', description: 'AI-powered document generation and research' },
-  { name: 'Success Stories', href: '/case-studies/16k-document', description: 'Real results from our AI solutions' },
-  { name: 'For Investors', href: '/investors', description: 'Join us in democratizing disability rights' },
+  { name: 'AI Strategy Consulting', href: '/services', description: 'Strategic AI planning and implementation guidance' },
+  { name: 'Success Stories', href: '/case-studies/16k-document', description: 'Real results from our consulting solutions' },
+  { name: 'Business Solutions', href: '/services/enterprise', description: 'Enterprise AI transformation and optimization' },
 ];
 
 const resources = [
@@ -32,8 +32,8 @@ const resources = [
 
 const company = [
   { name: 'About', href: '/about' },
-  { name: 'Careers', href: '/careers' },
   { name: 'Contact', href: '/contact' },
+  { name: 'AI Initiative', href: '/ai-initiative' },
 ];
 
 export function Navigation() {

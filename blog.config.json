@@ -1,0 +1,8 @@
+{
+  "watchMode": true,
+  "aiEnhancement": true,
+  "autoPublish": false,
+  "buildOnChange": true,
+  "aiModel": "claude",
+  "outputFormat": "tsx"
+}
