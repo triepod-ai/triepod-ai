@@ -1,0 +1,152 @@
+
+> nextjs@0.1.0 build
+> prisma generate && next build
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+
+✔ Generated Prisma Client (v6.8.2) to ./node_modules/@prisma/client in 32ms
+
+Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+
+Tip: Want to turn off tips and other hints? https://pris.ly/tip-4-nohints
+
+┌─────────────────────────────────────────────────────────┐
+│  Update available 6.8.2 -> 6.10.1                       │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@latest                       │
+│    npm i @prisma/client@latest                          │
+└─────────────────────────────────────────────────────────┘
+   Creating an optimized production build...
+ ✓ Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data...
+   Generating static pages (0/94)...
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (23/94)
+
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Entire page /billing deopted into client-side rendering. https://nextjs.org/docs/messages/deopted-into-client-rendering /billing
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (46/94)
+
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (70/94)
+
+ ✓ Generating static pages (94/94)
+   Finalizing page optimization...
+
+Route (app)                                                                                      Size     First Load JS
+┌ ○ /                                                                                            246 B          86.4 kB
+├ ○ /_not-found                                                                                  0 B                0 B
+├ ○ /about                                                                                       2.62 kB        96.5 kB
+├ ○ /ai-initiative                                                                               2.62 kB        96.5 kB
+├ λ /api/auth/[...nextauth]                                                                      0 B                0 B
+├ ○ /billing                                                                                     5.4 kB         92.6 kB
+├ ○ /blog                                                                                        246 B          86.4 kB
+├ ○ /blog/ai-strategy-implementation-a-complete-guide-for-business-leaders                       246 B          86.4 kB
+├ ○ /blog/bryan-thompson-journey                                                                 192 B          79.6 kB
+├ ○ /blog/building-mcp-server-directories                                                        3.34 kB        89.4 kB
+├ ○ /blog/building-multi-database-ai-systems                                                     247 B          86.4 kB
+├ ○ /blog/four-pillars-of-ai-research-for-mississippis-economic-future                           246 B          86.4 kB
+├ ○ /blog/from-farm-to-ai-a-thompson-family-story                                                246 B          86.4 kB
+├ ○ /blog/heart-behind-innovator                                                                 192 B          79.6 kB
+├ ○ /blog/mdr-hearing-federal-rules-guide                                                        192 B          79.6 kB
+├ ○ /blog/mississippi-nvidia-partnership-unlocking-agriculture-ai-research-opportunities         246 B          86.4 kB
+├ ○ /blog/proven-twice-personal-mission                                                          192 B          79.6 kB
+├ ○ /blog/rise-of-triepod-ai                                                                     192 B          79.6 kB
+├ ○ /blog/solving-mississippis-catfish-profitability-crisis-with-ai                              246 B          86.4 kB
+├ ○ /blog/the-future-of-ai-consulting-transforming-business-operations                           246 B          86.4 kB
+├ ○ /blog/triepod-ai-research-response-to-mississippis-historic-nvidia-partnership               246 B          86.4 kB
+├ ○ /blog/triepod-ai-revolutionizing-business-automation                                         192 B          79.6 kB
+├ ○ /blog/workplace-accommodations-ada-guide                                                     192 B          79.6 kB
+├ ○ /careers                                                                                     192 B          79.6 kB
+├ ○ /case-studies                                                                                246 B          86.4 kB
+├ ○ /case-studies/16k-document                                                                   246 B          86.4 kB
+├ ○ /collaborations                                                                              246 B          86.4 kB
+├ ○ /consulting                                                                                  246 B          86.4 kB
+├ ○ /contact                                                                                     2.62 kB        96.5 kB
+├ ○ /definitions                                                                                 192 B          79.6 kB
+├ λ /demo                                                                                        143 B          89.2 kB
+├ ○ /docs                                                                                        246 B          86.4 kB
+├ ○ /docs/architecture/3-pronged-approach                                                        192 B          79.6 kB
+├ ○ /docs/overview/proven-results                                                                192 B          79.6 kB
+├ ○ /docs/white-paper                                                                            2.74 kB        82.1 kB
+├ ○ /funding                                                                                     246 B          86.4 kB
+├ ○ /help                                                                                        192 B          79.6 kB
+├ ○ /help/contact                                                                                192 B          79.6 kB
+├ ○ /investors                                                                                   4.77 kB         105 kB
+├ ○ /login                                                                                       2.6 kB          113 kB
+├ ○ /pricing                                                                                     246 B          86.4 kB
+├ ○ /privacy                                                                                     192 B          79.6 kB
+├ ○ /projects                                                                                    5.01 kB        98.9 kB
+├ ● /projects/[slug]                                                                             400 B          86.5 kB
+├   ├ /projects/ai-driven-farm-automation
+├   ├ /projects/catfish-profitability-ai
+├   ├ /projects/n8n-workflow-generator-mcp
+├   └ [+18 more paths]
+├ ○ /projects/appwrite-ai-assistant/docs                                                         6.72 kB        92.8 kB
+├ ○ /projects/claude-cli-mcp/docs                                                                4.46 kB        90.6 kB
+├ ○ /projects/cyberpunk-chat/docs                                                                4.48 kB        90.6 kB
+├ ○ /projects/disability-rights-ai/early-access                                                  3.61 kB         104 kB
+├ ○ /projects/docucrew-ai-documentation-generator/docs                                           5.44 kB        91.5 kB
+├ ○ /projects/memory-system-mcp/docs                                                             4.48 kB        90.6 kB
+├ ○ /projects/merger-balance-automation/docs                                                     5.54 kB        91.7 kB
+├ ○ /projects/n8n-workflow-generator-mcp/docs                                                    6.62 kB        92.7 kB
+├ ○ /projects/ollama-mcp-wrapper/docs                                                            4.43 kB        90.5 kB
+├ ○ /projects/smartmatch-resume-advisor/docs                                                     5.27 kB        91.4 kB
+├ ○ /projects/stellar-trielink/docs                                                              5.72 kB        91.8 kB
+├ ○ /projects/triepod-encoder-ring/docs                                                          3.84 kB        89.9 kB
+├ ○ /projects/triepod-knowledge-base/docs                                                        5.11 kB        91.2 kB
+├ ○ /projects/vector-code-lens/docs                                                              5.32 kB        91.4 kB
+├ ○ /publications                                                                                246 B          86.4 kB
+├ ○ /research                                                                                    246 B          86.4 kB
+├ ○ /research/agriculture/ai-driven-precision-agriculture-optimizing-crop-yields-in-mississippi  246 B          86.4 kB
+├ ○ /research/aquaculture                                                                        247 B          86.4 kB
+├ ○ /services                                                                                    2.62 kB        96.5 kB
+├ ○ /services/chat                                                                               4.06 kB        95.8 kB
+├ ○ /services/code                                                                               2.44 kB         115 kB
+├ ○ /services/documentation                                                                      246 B          86.4 kB
+├ ○ /services/enterprise                                                                         246 B          86.4 kB
+├ ○ /services/music                                                                              2.44 kB         115 kB
+├ ○ /services/research                                                                           246 B          86.4 kB
+├ ○ /services/translate                                                                          2.47 kB         115 kB
+├ ○ /signup                                                                                      2.43 kB         113 kB
+├ ○ /terms                                                                                       192 B          79.6 kB
+└ ○ /test                                                                                        192 B          79.6 kB
++ First Load JS shared by all                                                                    79.4 kB
+  ├ chunks/7864-8b12e57960986a32.js                                                              26.5 kB
+  ├ chunks/fd9d1056-72c9342c9d3795b9.js                                                          50.9 kB
+  ├ chunks/main-app-9639d043aaff42b8.js                                                          222 B
+  └ chunks/webpack-4064615379d0f50a.js                                                           1.74 kB
+
+
+ƒ Middleware                                                                                     27.9 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
