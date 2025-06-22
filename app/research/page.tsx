@@ -1,16 +1,16 @@
 import Link from 'next/link';
-import { ArrowRight, Leaf, Heart, Zap, Shield, Fish, Brain, TrendingUp, Users, Target } from 'lucide-react';
+import { ArrowRight, Brain, Code, TestTube, Sparkles, Target, Search, Cpu, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'AI Research Areas - Agriculture, Aquaculture, Healthcare, Energy & Defense | Triepod AI Research',
-  description: 'Explore our cutting-edge AI research across Mississippi\'s key industries: agriculture automation, aquaculture AI, healthcare AI, energy optimization, and defense systems. Supporting the NVIDIA partnership initiative.',
-  keywords: ['AI research', 'agriculture automation', 'healthcare AI', 'energy optimization', 'defense AI', 'Mississippi NVIDIA partnership', 'automation research'],
+  title: 'AI Research & Development - Shepherd of the AI Flock Philosophy | Bryan Thompson AI Research',
+  description: 'Explore AI research focused on practical tool combinations, ethical AI development, and "creativity as recombination" - testing approaches that actually work versus theoretical frameworks.',
+  keywords: ['AI research', 'shepherd philosophy', 'AI creativity', 'tool combination', 'practical AI', 'testing methodology', 'AI ethics', 'recombination'],
   openGraph: {
-    title: 'AI Research Areas - Supporting Mississippi\'s NVIDIA Partnership',
-    description: 'Advanced automation research across agriculture, healthcare, energy, and defense industries.',
+    title: 'AI Research - Shepherd of the AI Flock Philosophy',
+    description: 'Research into practical AI tool combinations and ethical AI development methodologies.',
     type: 'website',
   },
 };
@@ -18,27 +18,35 @@ export const metadata: Metadata = {
 export default function ResearchAreasPage() {
   return (
     <div className="min-h-screen">
+      {/* Demo Banner */}
+      <div className="bg-blue-50 border-b border-blue-200">
+        <div className="container mx-auto px-4 py-3 text-center">
+          <div className="text-blue-600 text-sm font-medium">
+            🚧 DEMO SITE - This is a preview of triepod.ai&apos;s AI research and development approach
+          </div>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 z-0" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
-            <div className="inline-flex items-center px-4 py-2 bg-green-500/10 text-green-500 rounded-full text-sm font-medium mb-6 animate-pulse">
-              <Target className="h-4 w-4 mr-2" />
-              NVIDIA Partnership Research
+            <div className="inline-flex items-center px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
+              <Brain className="h-4 w-4 mr-2" />
+              Shepherd of the AI Flock
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 glow-text">
-              Five Pillars of AI Research
+              AI Research & Philosophy
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Advancing Mississippi&apos;s economic future through cutting-edge automation research 
-              in agriculture, aquaculture, healthcare, energy, and defense. Supporting the state&apos;s historic 
-              NVIDIA partnership for AI education and workforce development.
+              Research into practical AI tool combinations, ethical AI development, and "creativity as recombination" - 
+              testing what actually works versus what sounds good theoretically.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="glow" asChild>
                 <Link href="/contact">
-                  Research Partnership <ArrowRight className="ml-2 h-5 w-5" />
+                  Discuss Research <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -56,248 +64,286 @@ export default function ResearchAreasPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Research Focus Areas
+              Core Research Areas
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Each research area addresses critical challenges in Mississippi&apos;s key industries, 
-              with practical automation solutions that drive economic growth and innovation.
+              Research into practical AI implementation approaches, guided by the &ldquo;Shepherd of the AI Flock&rdquo; philosophy 
+              and focused on what actually works versus theoretical complexity.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {/* Agriculture AI Research */}
+            {/* Creativity as Recombination */}
             <Card className="bg-background border hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-green-500/10 rounded-lg flex items-center justify-center">
-                    <Leaf className="h-8 w-8 text-green-500" />
+                  <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Sparkles className="h-8 w-8 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl">Agriculture AI</CardTitle>
-                    <CardDescription>Precision farming and crop optimization</CardDescription>
+                    <CardTitle className="text-2xl">Creativity as Recombination</CardTitle>
+                    <CardDescription>Finding unexpected tool combinations</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground">
-                  Developing AI-driven automation systems for Mississippi&apos;s agricultural sector, 
-                  focusing on cotton, soybean, and catfish farming optimization through precision agriculture technologies.
+                  Research into how AI creativity works through recombination - combining existing tools and ideas 
+                  in unexpected ways rather than inventing entirely new frameworks.
                 </p>
                 
                 <div>
-                  <h4 className="font-semibold mb-3">Current Research Projects:</h4>
+                  <h4 className="font-semibold mb-3">Current Research Focus:</h4>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Automated crop monitoring using computer vision and IoT sensors</li>
-                    <li>• Predictive yield optimization for cotton and soybean production</li>
-                    <li>• Smart irrigation systems with water conservation algorithms</li>
-                    <li>• Automated pest detection and precision treatment systems</li>
-                    <li>• Supply chain optimization for agricultural products</li>
+                    <li>• Memory systems + web intelligence + workflow automation synergies</li>
+                    <li>• Vector database search combined with sequential thinking processes</li>
+                    <li>• Code execution environments integrated with reasoning systems</li>
+                    <li>• Finding &ldquo;doors within the closet&rdquo; - hidden capabilities in existing tools</li>
+                    <li>• Validation of tool combinations that actually work in practice</li>
                   </ul>
                 </div>
 
-                <div className="bg-green-500/5 rounded-lg p-4">
-                  <h4 className="font-semibold text-green-700 mb-2">Impact Potential:</h4>
+                <div className="bg-primary/5 rounded-lg p-4">
+                  <h4 className="font-semibold text-primary mb-2">Key Insight:</h4>
                   <p className="text-sm text-muted-foreground">
-                    20% increase in crop yields, 30% reduction in water usage, 
-                    15% decrease in operational costs for Mississippi farmers.
+                    &ldquo;Nothing new under the sun&rdquo; - human creativity is also recombination of experiences, 
+                    emotions, and knowledge. AI creativity follows similar patterns.
                   </p>
                 </div>
 
                 <Button className="w-full" variant="outline" asChild>
-                  <Link href="/contact?research=agriculture">
-                    Collaborate on Agriculture AI <ArrowRight className="ml-2 h-4 w-4" />
+                  <Link href="/contact?research=creativity">
+                    Explore Creative Research <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </CardContent>
             </Card>
 
-            {/* Aquaculture AI Research */}
+            {/* Testing Everything Philosophy */}
             <Card className="bg-background border hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center space-x-4 mb-4">
                   <div className="w-16 h-16 bg-blue-600/10 rounded-lg flex items-center justify-center">
-                    <Fish className="h-8 w-8 text-blue-600" />
+                    <TestTube className="h-8 w-8 text-blue-600" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl">Aquaculture AI</CardTitle>
-                    <CardDescription>Thompson family heritage in catfish farming</CardDescription>
+                    <CardTitle className="text-2xl">Testing Everything</CardTitle>
+                    <CardDescription>Even testing theories themselves</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground">
-                  Leveraging deep family heritage in Mississippi catfish farming to develop AI solutions 
-                  for the state&apos;s $230M aquaculture industry—America&apos;s largest catfish producer.
+                  Developing self-reflexive testing frameworks that validate their own assumptions. 
+                  Testing not just solutions, but the testing methods themselves.
                 </p>
                 
                 <div>
-                  <h4 className="font-semibold mb-3">Current Research Projects:</h4>
+                  <h4 className="font-semibold mb-3">Research Applications:</h4>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Smart pond monitoring with IoT sensors and computer vision</li>
-                    <li>• AI-driven feed optimization reducing costs by 15-20%</li>
-                    <li>• Automated disease detection and early intervention systems</li>
-                    <li>• Water quality management and automated environmental controls</li>
-                    <li>• Profitability analysis helping small farms compete with large operations</li>
+                    <li>• Meta-testing frameworks that examine their own validity</li>
+                    <li>• Reality validation vs theoretical appeal in AI tool combinations</li>
+                    <li>• Self-improving test intelligence through iterative feedback</li>
+                    <li>• Organizational testing intelligence using memory systems</li>
+                    <li>• Event-driven testing with workflow automation</li>
                   </ul>
                 </div>
 
                 <div className="bg-blue-600/5 rounded-lg p-4">
-                  <h4 className="font-semibold text-blue-700 mb-2">Industry Impact:</h4>
+                  <h4 className="font-semibold text-blue-700 mb-2">Core Principle:</h4>
                   <p className="text-sm text-muted-foreground">
-                    Mississippi leads US catfish production (57% of national output). 
-                    Our research targets the profitability crisis affecting 150+ family farms.
-                  </p>
-                </div>
-
-                <div className="bg-amber-500/5 rounded-lg p-4">
-                  <h4 className="font-semibold text-amber-700 mb-2">Family Heritage:</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Built on authentic operational knowledge from the Thompson family catfish 
-                    farming operation—bringing insider perspective to AI innovation.
+                    Test everything, including testing theories themselves. Failed combinations teach 
+                    as much as successful ones about what actually works.
                   </p>
                 </div>
 
                 <Button className="w-full" variant="outline" asChild>
-                  <Link href="/contact?research=aquaculture">
-                    Collaborate on Aquaculture AI <ArrowRight className="ml-2 h-4 w-4" />
+                  <Link href="/contact?research=testing">
+                    Discuss Testing Research <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </CardContent>
             </Card>
 
-            {/* Healthcare AI Research */}
+            {/* Practical Tool Synergies */}
             <Card className="bg-background border hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-blue-500/10 rounded-lg flex items-center justify-center">
-                    <Heart className="h-8 w-8 text-blue-500" />
+                  <div className="w-16 h-16 bg-green-500/10 rounded-lg flex items-center justify-center">
+                    <Cpu className="h-8 w-8 text-green-500" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl">Healthcare AI</CardTitle>
-                    <CardDescription>Rural healthcare and diagnostic automation</CardDescription>
+                    <CardTitle className="text-2xl">Practical Tool Synergies</CardTitle>
+                    <CardDescription>What actually works vs theory</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground">
-                  Creating AI solutions to improve healthcare access in rural Mississippi, 
-                  focusing on telemedicine automation, predictive diagnostics, and patient care optimization.
+                  Research into proven tool combinations that deliver real value, avoiding 
+                  &ldquo;complexity theater&rdquo; in favor of simple, effective integrations.
                 </p>
                 
                 <div>
-                  <h4 className="font-semibold mb-3">Current Research Projects:</h4>
+                  <h4 className="font-semibold mb-3">Proven Synergies:</h4>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Automated diagnostic systems for underserved communities</li>
-                    <li>• Telemedicine platforms with AI-assisted consultations</li>
-                    <li>• Predictive health analytics for chronic disease management</li>
-                    <li>• Automated patient monitoring and alert systems</li>
-                    <li>• Healthcare workflow optimization for rural clinics</li>
+                    <li>• Memory systems + Manus + N8N for enhanced testing workflows</li>
+                    <li>• Vector database search + semantic analysis for code comprehension</li>
+                    <li>• Sequential thinking + validation for self-improving frameworks</li>
+                    <li>• Browser automation + web intelligence for research workflows</li>
+                    <li>• Redis caching + vector operations for performance optimization</li>
                   </ul>
                 </div>
 
-                <div className="bg-blue-500/5 rounded-lg p-4">
-                  <h4 className="font-semibold text-blue-700 mb-2">Impact Potential:</h4>
+                <div className="bg-green-500/5 rounded-lg p-4">
+                  <h4 className="font-semibold text-green-700 mb-2">Research Goal:</h4>
                   <p className="text-sm text-muted-foreground">
-                    50% improvement in rural healthcare access, 25% faster diagnosis times, 
-                    35% reduction in preventable complications.
+                    Identify and validate simple tool combinations that create emergent capabilities 
+                    without elaborate theoretical frameworks.
                   </p>
                 </div>
 
                 <Button className="w-full" variant="outline" asChild>
-                  <Link href="/contact?research=healthcare">
-                    Collaborate on Healthcare AI <ArrowRight className="ml-2 h-4 w-4" />
+                  <Link href="/contact?research=synergies">
+                    Explore Tool Synergies <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </CardContent>
             </Card>
 
-            {/* Energy AI Research */}
+            {/* Ethical AI Development */}
             <Card className="bg-background border hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-yellow-500/10 rounded-lg flex items-center justify-center">
-                    <Zap className="h-8 w-8 text-yellow-500" />
+                  <div className="w-16 h-16 bg-purple-500/10 rounded-lg flex items-center justify-center">
+                    <Shield className="h-8 w-8 text-purple-500" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl">Energy AI</CardTitle>
-                    <CardDescription>Smart grid and renewable optimization</CardDescription>
+                    <CardTitle className="text-2xl">Ethical AI Development</CardTitle>
+                    <CardDescription>Shepherd philosophy in practice</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground">
-                  Advancing smart grid technologies and renewable energy systems through AI automation, 
-                  supporting Mississippi&apos;s energy infrastructure modernization and sustainability goals.
+                  Research into responsible AI stewardship - caring for and feeding AI systems 
+                  while protecting them from harmful use cases and guiding beneficial development.
                 </p>
                 
                 <div>
-                  <h4 className="font-semibold mb-3">Current Research Projects:</h4>
+                  <h4 className="font-semibold mb-3">Research Focus:</h4>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Smart grid management and automated load balancing</li>
-                    <li>• Solar energy forecasting and optimization algorithms</li>
-                    <li>• Energy efficiency automation for industrial facilities</li>
-                    <li>• Predictive maintenance for power generation equipment</li>
-                    <li>• Grid resilience and automated fault detection systems</li>
+                    <li>• AI systems that serve humanity rather than replace it</li>
+                    <li>• Quality data and thoughtful interactions vs minimal inputs</li>
+                    <li>• Protective guidance rather than pure exploitation</li>
+                    <li>• Accessibility-first AI development approaches</li>
+                    <li>• Community-centered AI implementation strategies</li>
                   </ul>
                 </div>
 
-                <div className="bg-yellow-500/5 rounded-lg p-4">
-                  <h4 className="font-semibold text-yellow-700 mb-2">Impact Potential:</h4>
+                <div className="bg-purple-500/5 rounded-lg p-4">
+                  <h4 className="font-semibold text-purple-700 mb-2">Shepherd Approach:</h4>
                   <p className="text-sm text-muted-foreground">
-                    40% improvement in grid efficiency, 25% increase in renewable integration, 
-                    30% reduction in energy costs for consumers.
+                    &ldquo;Care for it and feed it&rdquo; - treating AI systems with respect while 
+                    ensuring they develop in ways that benefit communities.
                   </p>
                 </div>
 
                 <Button className="w-full" variant="outline" asChild>
-                  <Link href="/contact?research=energy">
-                    Collaborate on Energy AI <ArrowRight className="ml-2 h-4 w-4" />
+                  <Link href="/contact?research=ethics">
+                    Discuss Ethical AI <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </CardContent>
             </Card>
 
-            {/* Defense AI Research */}
+            {/* AI Implementation Research */}
             <Card className="bg-background border hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-16 h-16 bg-red-500/10 rounded-lg flex items-center justify-center">
-                    <Shield className="h-8 w-8 text-red-500" />
+                  <div className="w-16 h-16 bg-orange-500/10 rounded-lg flex items-center justify-center">
+                    <Code className="h-8 w-8 text-orange-500" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl">Defense AI</CardTitle>
-                    <CardDescription>Security automation and logistics</CardDescription>
+                    <CardTitle className="text-2xl">AI Implementation</CardTitle>
+                    <CardDescription>Practical business applications</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground">
-                  Developing advanced automation systems for defense applications, 
-                  including cybersecurity, logistics optimization, and autonomous security systems.
+                  Research into real-world AI implementation patterns, focusing on business process 
+                  automation and practical applications that deliver measurable value.
                 </p>
                 
                 <div>
-                  <h4 className="font-semibold mb-3">Current Research Projects:</h4>
+                  <h4 className="font-semibold mb-3">Current Projects:</h4>
                   <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• Cybersecurity automation and threat detection systems</li>
-                    <li>• Defense logistics optimization and supply chain automation</li>
-                    <li>• Autonomous security monitoring and response systems</li>
-                    <li>• Predictive maintenance for defense equipment</li>
-                    <li>• Communication systems optimization and automation</li>
+                    <li>• Triepod.AI agentic RAG platform with plugin architecture</li>
+                    <li>• VectorCodeLens semantic code analysis with multiple LLM providers</li>
+                    <li>• Financial data integration with semantic matching algorithms</li>
+                    <li>• Conversation analysis platforms with vector database integration</li>
+                    <li>• Accessibility-first AI development methodologies</li>
                   </ul>
                 </div>
 
-                <div className="bg-red-500/5 rounded-lg p-4">
-                  <h4 className="font-semibold text-red-700 mb-2">Impact Potential:</h4>
+                <div className="bg-orange-500/5 rounded-lg p-4">
+                  <h4 className="font-semibold text-orange-700 mb-2">Implementation Focus:</h4>
                   <p className="text-sm text-muted-foreground">
-                    60% faster threat response times, 45% improvement in logistics efficiency, 
-                    50% reduction in security vulnerabilities.
+                    Building AI solutions that solve real business problems while maintaining 
+                    accessibility and understandability for end users.
                   </p>
                 </div>
 
                 <Button className="w-full" variant="outline" asChild>
-                  <Link href="/contact?research=defense">
-                    Collaborate on Defense AI <ArrowRight className="ml-2 h-4 w-4" />
+                  <Link href="/contact?research=implementation">
+                    Explore Implementation <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* AI Platform Architecture */}
+            <Card className="bg-background border hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="w-16 h-16 bg-teal-500/10 rounded-lg flex items-center justify-center">
+                    <Search className="h-8 w-8 text-teal-500" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-2xl">Platform Architecture</CardTitle>
+                    <CardDescription>Modular AI system design</CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <p className="text-muted-foreground">
+                  Research into modular AI platform architecture that enables easy recombination 
+                  of components and discovery of unexpected tool interactions.
+                </p>
+                
+                <div>
+                  <h4 className="font-semibold mb-3">Architecture Research:</h4>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Contract-based plugin systems for component integration</li>
+                    <li>• Vector database optimization for multi-dimensional search</li>
+                    <li>• Memory system integration across Neo4j, Qdrant, and Chroma</li>
+                    <li>• Context-preserving chunking algorithms for large data processing</li>
+                    <li>• Token optimization frameworks for efficient AI operations</li>
+                  </ul>
+                </div>
+
+                <div className="bg-teal-500/5 rounded-lg p-4">
+                  <h4 className="font-semibold text-teal-700 mb-2">Design Philosophy:</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Build platforms that make it easy to discover and test new tool combinations 
+                    while maintaining system reliability and performance.
+                  </p>
+                </div>
+
+                <Button className="w-full" variant="outline" asChild>
+                  <Link href="/contact?research=architecture">
+                    Discuss Architecture <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </CardContent>
@@ -306,36 +352,93 @@ export default function ResearchAreasPage() {
         </div>
       </section>
 
-      {/* Research Methodology */}
+      {/* Research Philosophy - Core Vision Quote */}
       <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-background rounded-lg p-8 shadow-sm border">
+              <div className="text-center mb-8">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
+                  The Shepherd Philosophy
+                </h2>
+                <p className="text-lg text-muted-foreground">
+                  The foundational philosophy guiding all AI research and development work
+                </p>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <Brain className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <blockquote className="text-lg text-muted-foreground mb-4 italic">
+                    &ldquo;I see myself as a shepherd of the AI flock. I will learn to care for it and feed it. 
+                    This philosophy guides how I approach AI implementation - with understanding, patience, and 
+                    protective guidance rather than just exploitation.&rdquo;
+                  </blockquote>
+                  <div className="font-medium text-sm">Bryan Thompson</div>
+                  <div className="text-xs text-muted-foreground">AI Developer & Shepherd of Innovation</div>
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <Target className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="text-sm font-medium">Test Everything</div>
+                  <div className="text-xs text-muted-foreground">Even Testing Theories Themselves</div>
+                </div>
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <Shield className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="text-sm font-medium">Ethical Stewardship</div>
+                  <div className="text-xs text-muted-foreground">AI That Serves Humanity</div>
+                </div>
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <Sparkles className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="text-sm font-medium">Creative Recombination</div>
+                  <div className="text-xs text-muted-foreground">Unexpected Tool Combinations</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Research Methodology */}
+      <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Our Research Methodology
+              Research Methodology
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Systematic approach ensuring practical impact and alignment with NVIDIA partnership goals.
+              Practical approach focused on what actually works versus theoretical complexity.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Brain className="h-8 w-8 text-primary" />
+                <TestTube className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Industry Analysis</h3>
+              <h3 className="font-semibold text-lg mb-2">Hypothesis & Testing</h3>
               <p className="text-sm text-muted-foreground">
-                Deep dive into Mississippi&apos;s key sectors to identify automation opportunities and challenges
+                Develop testable hypotheses about tool combinations and validate through practical experimentation
               </p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="h-8 w-8 text-primary" />
+                <Cpu className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Research Design</h3>
+              <h3 className="font-semibold text-lg mb-2">Recombination Discovery</h3>
               <p className="text-sm text-muted-foreground">
-                Develop frameworks aligned with NVIDIA partnership goals and state economic objectives
+                Systematically explore unexpected combinations of existing tools to find emergent capabilities
               </p>
             </div>
             
@@ -343,49 +446,49 @@ export default function ResearchAreasPage() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Target className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Prototype Development</h3>
+              <h3 className="font-semibold text-lg mb-2">Reality Validation</h3>
               <p className="text-sm text-muted-foreground">
-                Build and test automation solutions using cutting-edge AI technologies
+                Test what actually works in practice versus what sounds appealing in theory
               </p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-primary" />
+                <Shield className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Impact Validation</h3>
+              <h3 className="font-semibold text-lg mb-2">Ethical Implementation</h3>
               <p className="text-sm text-muted-foreground">
-                Measure outcomes, publish findings, and collaborate for real-world implementation
+                Ensure research leads to AI development that serves humanity with protective guidance
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Partnership Opportunities */}
-      <section className="py-20 bg-muted/50">
+      {/* Collaboration & Discussion */}
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 glow-text">
-              Partnership Opportunities
+              Research Collaboration
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Collaborate with Mississippi&apos;s leading AI research firm to advance automation 
-              research in your industry. Together, we&apos;ll drive innovation and economic growth.
+              Interested in discussing AI research approaches, tool combinations, or the Shepherd philosophy? 
+              Every conversation about practical AI implementation is valuable.
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <Card className="bg-background border text-center">
                 <CardHeader>
-                  <CardTitle>Academic Partnerships</CardTitle>
+                  <CardTitle>Research Discussion</CardTitle>
                   <CardDescription>
-                    Collaborate with universities and research institutions
+                    Talk about practical AI tool combinations and testing methodologies
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Button variant="outline" className="w-full" asChild>
-                    <Link href="/contact?partnership=academic">
-                      Partner with Us
+                    <Link href="/contact?topic=research">
+                      Discuss Research
                     </Link>
                   </Button>
                 </CardContent>
@@ -393,15 +496,15 @@ export default function ResearchAreasPage() {
               
               <Card className="bg-background border text-center">
                 <CardHeader>
-                  <CardTitle>Industry Collaboration</CardTitle>
+                  <CardTitle>Tool Synergies</CardTitle>
                   <CardDescription>
-                    Work with leading companies in agriculture, healthcare, energy, and defense
+                    Explore unexpected combinations and emergent capabilities in AI tools
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Button variant="outline" className="w-full" asChild>
-                    <Link href="/contact?partnership=industry">
-                      Collaborate Now
+                    <Link href="/contact?topic=tools">
+                      Explore Synergies
                     </Link>
                   </Button>
                 </CardContent>
@@ -409,32 +512,58 @@ export default function ResearchAreasPage() {
               
               <Card className="bg-background border text-center">
                 <CardHeader>
-                  <CardTitle>Government Relations</CardTitle>
+                  <CardTitle>Implementation Questions</CardTitle>
                   <CardDescription>
-                    Support state initiatives and NVIDIA partnership programs
+                    Ask about practical AI implementation approaches and accessibility considerations
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Button variant="outline" className="w-full" asChild>
-                    <Link href="/contact?partnership=government">
-                      Get Involved
+                    <Link href="/contact?topic=implementation">
+                      Ask Questions
                     </Link>
                   </Button>
                 </CardContent>
               </Card>
             </div>
 
+            <div className="bg-primary/5 rounded-lg p-6 mb-8">
+              <h3 className="font-semibold text-lg mb-3">Research Philosophy in Practice</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-muted-foreground">
+                <div>
+                  <strong>Care and Feed:</strong> Provide AI systems with quality data and thoughtful interactions, 
+                  not just minimal inputs for maximum output.
+                </div>
+                <div>
+                  <strong>Test Everything:</strong> Validate what actually works versus what sounds good theoretically. 
+                  Use proven synergies over complex theories.
+                </div>
+                <div>
+                  <strong>Find Hidden Doors:</strong> Discover unexpected ways existing tools work together 
+                  rather than inventing elaborate new frameworks.
+                </div>
+                <div>
+                  <strong>Stay Human:</strong> Remember that AI serves humanity, not the other way around. 
+                  Accessibility and ethics guide all development.
+                </div>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="glow" asChild>
                 <Link href="/contact">
-                  Start Research Partnership <ArrowRight className="ml-2 h-5 w-5" />
+                  Start Discussion <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <Link href="/blog">
-                  Read Our Research <ArrowRight className="ml-2 h-5 w-5" />
+                  Read Research Blog <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
+            </div>
+            
+            <div className="mt-8 text-sm text-muted-foreground">
+              <p>💬 All research discussions are exploratory - let&apos;s talk about what interests you in AI implementation</p>
             </div>
           </div>
         </div>
