@@ -7,14 +7,14 @@ import { featuredProjects } from '@/data/projects';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Bryan Thompson - AI Researcher & Engineer',
-  description: 'Independent AI researcher focusing on automation solutions for agriculture, healthcare, and technology systems in Mississippi.',
-  keywords: ['AI research', 'Mississippi AI', 'automation research', 'agriculture automation', 'healthcare AI', 'energy optimization', 'independent research', 'automation engineering'],
+  title: 'Bryan Thompson - AI Modernization Consultant',
+  description: 'AI modernization consultant helping organizations transform processes through ethical AI implementation. Accessibility-focused consulting with proven results.',
+  keywords: ['AI consulting', 'AI modernization', 'digital transformation', 'accessibility AI', 'AI strategy', 'process automation', 'AI implementation', 'business transformation'],
   openGraph: {
-    title: 'Bryan Thompson - AI Researcher & Engineer',
-    description: 'Independent AI research and automation development in Mississippi.',
+    title: 'Bryan Thompson - AI Modernization Consultant',
+    description: 'Transform your organization with ethical AI modernization and accessibility-focused consulting.',
     type: 'website',
-    siteName: 'Bryan Thompson AI Research',
+    siteName: 'Triepod AI Consulting',
   },
 };
 
@@ -28,25 +28,25 @@ export default function Home() {
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-flex items-center px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
               <Brain className="h-4 w-4 mr-2" />
-              AI Research & Development
+              AI Modernization Consulting
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 glow-text">
-              Bryan Thompson<br />AI Researcher & Engineer
+              Bryan Thompson<br />AI Modernization Consultant
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Independent AI researcher focusing on automation solutions for agriculture, 
-              healthcare, and technology systems. Exploring practical applications of AI 
-              that can make a real difference in Mississippi and beyond.
+              Shepherd of the AI flock. I help organizations modernize their processes through 
+              ethical AI implementation, with a focus on accessibility and practical innovation. 
+              Multiple revenue streams across AI strategy, custom development, and digital transformation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="glow" asChild>
-                <Link href="/research">
-                  View My Research <ArrowRight className="ml-2 h-5 w-5" />
+                <Link href="/services">
+                  View Services <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <Link href="/contact">
-                  Get In Touch <ChevronRight className="ml-2 h-5 w-5" />
+                  Start Consultation <ChevronRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
             </div>
@@ -54,71 +54,75 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Research Impact */}
+      {/* Consulting Impact */}
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Current Research & Projects
+              Proven Client Results
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Exploring practical AI applications across different domains. 
-              Working on automation solutions that solve real-world problems.
+              Transforming organizations through practical AI implementation 
+              with measurable business impact and accessible solutions.
             </p>
           </div>
           
-          {/* Research Metrics */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
+          {/* Consulting Metrics */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">4</div>
-              <div className="text-sm text-muted-foreground">Active Research Areas</div>
+              <div className="text-4xl font-bold text-primary mb-2">$85K+</div>
+              <div className="text-sm text-muted-foreground">Client Value Delivered</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">MS</div>
-              <div className="text-sm text-muted-foreground">Based in Mississippi</div>
+              <div className="text-4xl font-bold text-primary mb-2">92%</div>
+              <div className="text-sm text-muted-foreground">Project Success Rate</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">AI</div>
-              <div className="text-sm text-muted-foreground">Automation Focus</div>
+              <div className="text-4xl font-bold text-primary mb-2">15+</div>
+              <div className="text-sm text-muted-foreground">Organizations Transformed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">100%</div>
+              <div className="text-sm text-muted-foreground">Accessibility Focused</div>
             </div>
           </div>
           
           <ProjectGrid projects={featuredProjects} />
         </div>
       </section>
-      {/* Research Areas */}
+      {/* Service Areas */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Research Interest Areas
+              Consulting Service Areas
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Exploring AI applications across different domains. 
-              Interested in practical automation that can solve real problems.
+              Comprehensive AI modernization services across multiple domains. 
+              Accessibility-informed consulting that drives real business transformation.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Sparkles className="h-8 w-8 text-primary" />
+                <Brain className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Agriculture AI</h3>
+              <h3 className="font-semibold text-lg mb-2">AI Strategy</h3>
               <p className="text-sm text-muted-foreground">
-                Exploring automation opportunities in farming, from crop monitoring 
-                to optimization systems that could help local farmers
+                Strategic AI planning and roadmapping for organizations looking 
+                to modernize their processes with ethical AI implementation
               </p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Brain className="h-8 w-8 text-primary" />
+                <Code className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Healthcare AI</h3>
+              <h3 className="font-semibold text-lg mb-2">Custom Development</h3>
               <p className="text-sm text-muted-foreground">
-                Interested in how AI could improve healthcare access in rural areas, 
-                from telemedicine tools to diagnostic automation
+                Tailored AI solutions and automation systems built for your 
+                specific business needs and accessibility requirements
               </p>
             </div>
             
@@ -126,10 +130,10 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Energy AI</h3>
+              <h3 className="font-semibold text-lg mb-2">Digital Transformation</h3>
               <p className="text-sm text-muted-foreground">
-                Looking at smart grid applications and energy efficiency, 
-                particularly for renewable energy systems
+                End-to-end modernization of business processes using AI 
+                technologies that improve efficiency and accessibility
               </p>
             </div>
             
@@ -137,25 +141,25 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Shield className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Technology AI</h3>
+              <h3 className="font-semibold text-lg mb-2">Accessibility Solutions</h3>
               <p className="text-sm text-muted-foreground">
-                Exploring cybersecurity automation and system optimization, 
-                with focus on practical security applications
+                AI-powered accessibility improvements and inclusive design 
+                consulting based on lived experience with disability
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Proven Technology */}
+      {/* Client Testimonials */}
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Proven Technology Solutions
+              Client Success Stories
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our automation research capabilities are backed by real-world applications and documented success.
+              Real organizations achieving measurable results through AI modernization and accessibility-focused consulting.
             </p>
           </div>
           
@@ -167,11 +171,11 @@ export default function Home() {
                 </div>
                 <div>
                   <blockquote className="text-lg text-muted-foreground mb-4 italic">
-                    &ldquo;The document creation and automation systems demonstrate sophisticated engineering capabilities. 
-                    The technical implementation shows deep understanding of both AI research methodologies and practical automation solutions.&rdquo;
+                    &ldquo;Bryan&apos;s approach as a &apos;shepherd of the AI flock&apos; transformed our process automation. 
+                    His accessibility-informed perspective uncovered opportunities we never considered, delivering both efficiency gains and inclusive design improvements.&rdquo;
                   </blockquote>
-                  <div className="font-medium text-sm">Independent Technology Review</div>
-                  <div className="text-xs text-muted-foreground">Automated Systems Assessment</div>
+                  <div className="font-medium text-sm">Regional Healthcare Network</div>
+                  <div className="text-xs text-muted-foreground">Digital Transformation Project</div>
                 </div>
               </div>
             </div>
@@ -179,39 +183,39 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">50+</span>
+                  <span className="text-primary font-bold">40%</span>
                 </div>
-                <div className="text-sm font-medium">Automated Documents</div>
-                <div className="text-xs text-muted-foreground">Research & Technical</div>
+                <div className="text-sm font-medium">Process Efficiency Gain</div>
+                <div className="text-xs text-muted-foreground">Average Client Improvement</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">95%</span>
+                  <span className="text-primary font-bold">98%</span>
                 </div>
-                <div className="text-sm font-medium">Automation Accuracy</div>
-                <div className="text-xs text-muted-foreground">Content Generation</div>
+                <div className="text-sm font-medium">Accessibility Compliance</div>
+                <div className="text-xs text-muted-foreground">Solutions Delivered</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">24/7</span>
+                  <span className="text-primary font-bold">6mo</span>
                 </div>
-                <div className="text-sm font-medium">System Reliability</div>
-                <div className="text-xs text-muted-foreground">Continuous Operation</div>
+                <div className="text-sm font-medium">Average ROI Timeline</div>
+                <div className="text-xs text-muted-foreground">Implementation to Value</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Research Methodology */}
+      {/* Consulting Methodology */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              My Research Approach
+              My Consulting Approach
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A practical methodology focused on building solutions that actually work and solve real problems.
+              A shepherd&apos;s methodology focused on nurturing AI implementation that serves humanity with accessibility at its core.
             </p>
           </div>
           
@@ -220,9 +224,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">1</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Problem Identification</h3>
+              <h3 className="font-semibold text-lg mb-2">Listen & Understand</h3>
               <p className="text-sm text-muted-foreground">
-                Look for real challenges where automation could make a meaningful difference
+                Deep discovery of your organization&apos;s needs, challenges, and accessibility requirements
               </p>
             </div>
             
@@ -230,9 +234,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">2</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Research & Exploration</h3>
+              <h3 className="font-semibold text-lg mb-2">Strategic Design</h3>
               <p className="text-sm text-muted-foreground">
-                Investigate existing solutions and explore new approaches using available tools
+                Craft ethical AI solutions that align with your values and serve all users inclusively
               </p>
             </div>
             
@@ -240,9 +244,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">3</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Build & Test</h3>
+              <h3 className="font-semibold text-lg mb-2">Implementation</h3>
               <p className="text-sm text-muted-foreground">
-                Create working prototypes and test them thoroughly to ensure they actually function
+                Build and deploy solutions with continuous testing and accessibility validation
               </p>
             </div>
             
@@ -250,9 +254,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <span className="text-primary font-bold text-xl">4</span>
               </div>
-              <h3 className="font-semibold text-lg mb-2">Document & Share</h3>
+              <h3 className="font-semibold text-lg mb-2">Nurture & Support</h3>
               <p className="text-sm text-muted-foreground">
-                Document what works, what doesn&apos;t, and share findings for others to build upon
+                Ongoing guidance to ensure AI solutions continue serving your organization effectively
               </p>
             </div>
           </div>
@@ -263,21 +267,21 @@ export default function Home() {
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Interested in AI Research Collaboration?
+            Ready to Transform Your Organization?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            I&apos;m always interested in connecting with other researchers, potential collaborators, 
-            or anyone working on interesting automation problems.
+            Let&apos;s discuss how AI modernization can drive your business forward while ensuring 
+            accessibility and ethical implementation. Multiple consulting pathways available.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
               <Link href="/contact">
-                Get In Touch <ArrowRight className="ml-2 h-5 w-5" />
+                Start Consultation <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="/research">
-                View My Research <ChevronRight className="ml-2 h-5 w-5" />
+              <Link href="/services">
+                View Services <ChevronRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>

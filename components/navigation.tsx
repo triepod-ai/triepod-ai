@@ -19,21 +19,24 @@ import {
 import { Sidebar } from '@/components/sidebar';
 
 const services = [
-  { name: 'AI Strategy Consulting', href: '/services', description: 'Strategic AI planning and implementation guidance' },
-  { name: 'Success Stories', href: '/case-studies/16k-document', description: 'Real results from our consulting solutions' },
-  { name: 'Business Solutions', href: '/services/enterprise', description: 'Enterprise AI transformation and optimization' },
+  { name: 'AI Strategy & Roadmapping', href: '/services', description: 'Strategic AI planning and implementation guidance' },
+  { name: 'Custom AI Development', href: '/services/development', description: 'Tailored AI solutions and automation systems' },
+  { name: 'Digital Transformation', href: '/services/transformation', description: 'End-to-end modernization consulting' },
+  { name: 'Accessibility Solutions', href: '/services/accessibility', description: 'AI-powered accessibility improvements' },
+  { name: 'Success Stories', href: '/case-studies', description: 'Real results from client transformations' },
 ];
 
 const resources = [
-  { name: 'Documentation', href: '/docs' },
   { name: 'Blog', href: '/blog' },
+  { name: 'Case Studies', href: '/case-studies' },
+  { name: 'Documentation', href: '/docs' },
   { name: 'Help Center', href: '/help' },
 ];
 
 const company = [
   { name: 'About', href: '/about' },
+  { name: 'Philosophy', href: '/philosophy' },
   { name: 'Contact', href: '/contact' },
-  { name: 'AI Initiative', href: '/ai-initiative' },
 ];
 
 export function Navigation() {
@@ -64,7 +67,7 @@ export function Navigation() {
                   pathname === '/projects' ? 'text-primary' : 'text-muted-foreground'
                 )}
               >
-                Projects
+                Portfolio
               </Link>
               
               <NavigationMenu>
@@ -193,7 +196,7 @@ export function Navigation() {
                 )}
                 onClick={() => setIsOpen(false)}
               >
-                Projects
+                Portfolio
               </Link>
               {[...services, ...resources, ...company].map((item) => (
                 <Link
