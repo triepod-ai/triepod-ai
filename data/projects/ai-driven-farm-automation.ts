@@ -11,7 +11,7 @@ export const aiDrivenFarmAutomation: Project = {
   
   category: 'ai-research',
   status: 'development',
-  featured: true,
+  featured: false,
   order: 1,
   
   technologies: [

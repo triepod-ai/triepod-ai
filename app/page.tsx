@@ -2,8 +2,6 @@ import Link from 'next/link';
 import { ArrowRight, Brain, Code, Shield, Sparkles, ChevronRight, Target, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { ProjectGrid } from '@/components/project-grid';
-import { featuredProjects } from '@/data/projects';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -54,40 +52,38 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Consulting Impact */}
+      {/* What We're Building */}
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Proven Client Results
+              What We're Building
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Transforming organizations through practical AI implementation 
-              with measurable business impact and accessible solutions.
+              Developing AI solutions and consulting services focused on 
+              practical implementation with accessibility at the core.
             </p>
           </div>
           
-          {/* Consulting Metrics */}
+          {/* Development Focus */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">$85K+</div>
-              <div className="text-sm text-muted-foreground">Client Value Delivered</div>
+              <div className="text-4xl font-bold text-primary mb-2">New</div>
+              <div className="text-sm text-muted-foreground">Company Building Solutions</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">92%</div>
-              <div className="text-sm text-muted-foreground">Project Success Rate</div>
+              <div className="text-4xl font-bold text-primary mb-2">Demo</div>
+              <div className="text-sm text-muted-foreground">Projects and Capabilities</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">15+</div>
-              <div className="text-sm text-muted-foreground">Organizations Transformed</div>
+              <div className="text-4xl font-bold text-primary mb-2">AI</div>
+              <div className="text-sm text-muted-foreground">Focused Development</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">100%</div>
               <div className="text-sm text-muted-foreground">Accessibility Focused</div>
             </div>
           </div>
-          
-          <ProjectGrid projects={featuredProjects} />
         </div>
       </section>
       {/* Service Areas */}
@@ -151,15 +147,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Client Testimonials */}
+      {/* Our Approach */}
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 glow-text">
-              Client Success Stories
+              Our Development Focus
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Real organizations achieving measurable results through AI modernization and accessibility-focused consulting.
+              Building AI solutions with accessibility and practical implementation at the core. 
+              We're a new company focused on creating tools that serve everyone.
             </p>
           </div>
           
@@ -171,11 +168,11 @@ export default function Home() {
                 </div>
                 <div>
                   <blockquote className="text-lg text-muted-foreground mb-4 italic">
-                    &ldquo;Bryan&apos;s approach as a &apos;shepherd of the AI flock&apos; transformed our process automation. 
-                    His accessibility-informed perspective uncovered opportunities we never considered, delivering both efficiency gains and inclusive design improvements.&rdquo;
+                    &ldquo;As a new company, we&apos;re focused on building AI solutions that serve real needs. 
+                    Our accessibility-first approach guides every project we develop, ensuring technology works for everyone.&rdquo;
                   </blockquote>
-                  <div className="font-medium text-sm">Regional Healthcare Network</div>
-                  <div className="text-xs text-muted-foreground">Digital Transformation Project</div>
+                  <div className="font-medium text-sm">Bryan Thompson</div>
+                  <div className="text-xs text-muted-foreground">Founder, AI Modernization Consultant</div>
                 </div>
               </div>
             </div>
@@ -183,24 +180,24 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">40%</span>
+                  <span className="text-primary font-bold">New</span>
                 </div>
-                <div className="text-sm font-medium">Process Efficiency Gain</div>
-                <div className="text-xs text-muted-foreground">Average Client Improvement</div>
+                <div className="text-sm font-medium">Fresh Perspective</div>
+                <div className="text-xs text-muted-foreground">Innovative Approach to AI</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">98%</span>
+                  <span className="text-primary font-bold">100%</span>
                 </div>
-                <div className="text-sm font-medium">Accessibility Compliance</div>
-                <div className="text-xs text-muted-foreground">Solutions Delivered</div>
+                <div className="text-sm font-medium">Accessibility Focus</div>
+                <div className="text-xs text-muted-foreground">Every Solution We Build</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-primary font-bold">6mo</span>
+                  <span className="text-primary font-bold">Demo</span>
                 </div>
-                <div className="text-sm font-medium">Average ROI Timeline</div>
-                <div className="text-xs text-muted-foreground">Implementation to Value</div>
+                <div className="text-sm font-medium">Available Now</div>
+                <div className="text-xs text-muted-foreground">See What We're Building</div>
               </div>
             </div>
           </div>
@@ -267,21 +264,21 @@ export default function Home() {
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Transform Your Organization?
+            Interested in What We&apos;re Building?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Let&apos;s discuss how AI modernization can drive your business forward while ensuring 
-            accessibility and ethical implementation. Multiple consulting pathways available.
+            We&apos;re a new company developing AI solutions with accessibility at the core. 
+            Explore our demo projects and let&apos;s discuss how we might help in the future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <Link href="/contact">
-                Start Consultation <ArrowRight className="ml-2 h-5 w-5" />
+              <Link href="/projects">
+                View Projects <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="/services">
-                View Services <ChevronRight className="ml-2 h-5 w-5" />
+              <Link href="/contact">
+                Get in Touch <ChevronRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>

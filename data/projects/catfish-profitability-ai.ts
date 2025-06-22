@@ -11,7 +11,7 @@ export const catfishProfitabilityAI: Project = {
   
   category: 'ai-research',
   status: 'development',
-  featured: true,
+  featured: false,
   order: 2,
   
   technologies: [
