@@ -152,12 +152,7 @@ export function Navigation() {
                     <Link href="/login">Sign in</Link>
                   </Button>
                 )}
-                {/* TODO: Twitter handle @triepod_ai doesn't exist or is private - needs to be created or removed */}
-                <Button variant="ghost" size="icon">
-                  <Link href="https://twitter.com/triepod_ai" target="_blank">
-                    <Twitter className="h-5 w-5" />
-                  </Link>
-                </Button>
+                {/* Twitter link removed - account does not exist */}
                 <Button variant="ghost" size="icon">
                   <Link href="https://github.com/triepod-ai" target="_blank">
                     <Github className="h-5 w-5" />

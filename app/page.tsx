@@ -5,20 +5,29 @@ import { Badge } from '@/components/ui/badge';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Bryan Thompson - AI Implementation Specialist & Shepherd of Innovation',
-  description: 'AI Implementation Specialist helping businesses unlock measurable value through practical AI solutions. Accessibility-first approach with proven methodologies.',
+  title: 'triepod.ai - AI Implementation & Consulting [DEMO]',
+  description: 'Demo site showcasing AI implementation and consulting services. Practical AI solutions with accessibility-first approach and proven methodologies.',
   keywords: ['AI implementation', 'AI consulting', 'accessibility AI', 'AI strategy', 'business automation', 'AI integration', 'AI ROI', 'ethical AI'],
   openGraph: {
-    title: 'Bryan Thompson - AI Implementation Specialist & Shepherd of Innovation',
-    description: 'Guide your organization through practical AI implementation with accessibility-first principles and measurable results.',
+    title: 'triepod.ai - AI Implementation & Consulting [DEMO]',
+    description: 'Demo site showcasing practical AI implementation with accessibility-first principles and measurable results.',
     type: 'website',
-    siteName: 'Triepod AI Consulting',
+    siteName: 'triepod.ai Demo',
   },
 };
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+      {/* Demo Banner */}
+      <div className="bg-blue-50 border-b border-blue-200">
+        <div className="container mx-auto px-4 py-3 text-center">
+          <div className="text-blue-600 text-sm font-medium">
+            🚧 DEMO SITE - This is a preview of triepod.ai's AI consulting and development capabilities
+          </div>
+        </div>
+      </div>
+      
       {/* Hero Section - Professional Transformation */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 z-0" />

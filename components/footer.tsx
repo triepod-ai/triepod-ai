@@ -12,9 +12,6 @@ export function Footer() {
               Advanced AI Research & Consulting Solutions
             </p>
             <div className="flex space-x-4">
-              <Link href="https://twitter.com/triepod_ai" target="_blank">
-                <Twitter className="h-5 w-5" />
-              </Link>
               <Link href="https://github.com/triepod-ai" target="_blank">
                 <Github className="h-5 w-5" />
               </Link>
