@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import { ArrowRight, Brain, Code, Shield, Sparkles, ChevronRight, Target, TrendingUp } from 'lucide-react';
+import { ArrowRight, Brain, Code, Shield, Sparkles, ChevronRight, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Github, Twitter, ChevronDown, LogOut } from 'lucide-react';
+import { Menu, X, Github, ChevronDown, LogOut } from 'lucide-react';
 import { Logo } from '@/components/logo';
 import { useAuth } from '@/components/auth-provider';
 import {

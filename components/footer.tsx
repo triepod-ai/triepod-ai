@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Twitter, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 export function Footer() {
   return (
