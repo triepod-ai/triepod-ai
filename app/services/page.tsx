@@ -3,12 +3,12 @@ import { ConsultationCTA } from '@/components/consultation-cta';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'AI Modernization Services - Triepod Consulting',
-  description: 'Comprehensive AI modernization consulting with accessibility focus. Multiple revenue streams: strategy, development, transformation, and accessibility solutions.',
-  keywords: ['AI modernization', 'AI consulting', 'accessibility consulting', 'digital transformation', 'AI strategy', 'custom AI development', 'inclusive design'],
+  title: 'AI Implementation Services - Bryan Thompson',
+  description: 'Practical AI implementation and consulting services. Strategy, custom development, and accessibility-focused solutions for business automation.',
+  keywords: ['AI implementation', 'AI consulting', 'accessibility consulting', 'business automation', 'AI strategy', 'custom AI development', 'practical AI'],
   openGraph: {
-    title: 'AI Modernization Services - Triepod Consulting',
-    description: 'Shepherd of the AI flock. Transform your organization with ethical AI modernization.',
+    title: 'AI Implementation Services - Bryan Thompson',
+    description: 'Practical AI solutions that solve real business problems with accessibility at the core.',
     type: 'website',
   },
 };
@@ -79,161 +79,161 @@ export default function ServicesPage() {
   const services: ServiceProps[] = [
     {
       icon: Brain,
-      title: "AI Strategy & Roadmapping",
-      description: "Comprehensive AI assessment and strategic planning with accessibility at the core, aligning AI capabilities with your business objectives.",
+      title: "AI Strategy & Assessment",
+      description: "Evaluate your current processes and identify practical AI opportunities that align with your business objectives and accessibility requirements.",
       features: [
-        "Current state AI readiness and accessibility assessment",
-        "Competitive landscape analysis with inclusion focus",
-        "Custom AI roadmap with accessibility milestones",
-        "ROI projections and accessibility compliance metrics",
-        "Risk assessment and ethical AI mitigation strategies"
+        "Current process analysis and AI readiness assessment",
+        "Identification of automation opportunities",
+        "Technology stack evaluation and recommendations",
+        "ROI projections for potential AI implementations",
+        "Risk assessment and mitigation planning"
       ],
       deliverables: [
-        "AI Readiness & Accessibility Assessment Report",
-        "Strategic AI Implementation Roadmap",
-        "Inclusive Technology Stack Recommendations",
-        "Budget Planning Guide with Accessibility Considerations",
-        "Executive Presentation Deck"
+        "AI Readiness Assessment Report",
+        "Implementation Roadmap with priorities",
+        "Technology recommendations",
+        "Budget planning guidance",
+        "Next steps action plan"
       ],
-      timeline: "2-3 weeks",
-      investment: "Starting at $8,500"
+      timeline: "1-2 weeks",
+      investment: "Contact for pricing"
     },
     {
       icon: Code,
-      title: "Custom AI Development",
-      description: "End-to-end accessible AI solution development tailored to your specific business needs with disability-informed design principles.",
+      title: "Custom AI Solutions",
+      description: "Build tailored AI solutions for your specific business needs, with accessibility and practical implementation as core design principles.",
       features: [
-        "Accessibility-first requirements analysis and solution design",
-        "Custom AI model development with bias testing",
-        "Inclusive integration with existing systems",
-        "Comprehensive testing including accessibility validation",
-        "Deployment with accessibility monitoring setup"
+        "Requirements analysis and solution design",
+        "Custom development using proven AI technologies",
+        "Integration with existing business systems",
+        "Accessibility testing and validation",
+        "Documentation and user training"
       ],
       deliverables: [
-        "Production-ready accessible AI solution",
-        "Accessibility compliance documentation",
-        "Inclusive user training materials",
-        "Monitoring and maintenance guides",
-        "Knowledge transfer sessions with accessibility focus"
+        "Working AI solution tailored to your needs",
+        "Integration documentation",
+        "User training materials",
+        "Maintenance and support guidance",
+        "Knowledge transfer sessions"
       ],
-      timeline: "6-12 weeks",
-      investment: "Starting at $25,000"
+      timeline: "4-8 weeks",
+      investment: "Project-based pricing"
     },
     {
       icon: TrendingUp,
-      title: "Digital Transformation",
-      description: "End-to-end organizational modernization using AI technologies with accessibility and inclusion at the forefront.",
+      title: "Process Automation",
+      description: "Identify and automate repetitive business processes using AI technologies, with focus on measurable efficiency improvements.",
       features: [
-        "Complete digital transformation roadmap",
-        "Accessibility compliance integration",
-        "Change management with inclusion focus",
-        "Staff training on accessible AI tools",
+        "Process analysis and automation opportunities",
+        "Custom automation solution development",
+        "Integration with existing business systems",
+        "Staff training and change management support",
         "Performance monitoring and optimization"
       ],
       deliverables: [
-        "Digital Transformation Strategy",
-        "Accessibility Integration Plan",
-        "Change Management Framework",
-        "Staff Training Program",
-        "Performance Monitoring Dashboard"
+        "Process Automation Strategy",
+        "Working automation solutions",
+        "Integration documentation",
+        "Staff training materials",
+        "Performance monitoring setup"
       ],
-      timeline: "8-16 weeks",
-      investment: "Starting at $35,000"
+      timeline: "3-6 weeks",
+      investment: "Based on scope"
     },
     {
       icon: Shield,
-      title: "Accessibility Solutions",
-      description: "Specialized AI-powered accessibility improvements and inclusive design consulting based on lived experience with disability.",
+      title: "Accessibility Consulting",
+      description: "Improve your digital accessibility with AI-powered tools and inclusive design consulting, informed by lived experience with disability.",
       features: [
-        "Comprehensive accessibility audits using AI tools",
-        "Disability-informed design recommendations",
-        "AI-powered accessibility testing and monitoring",
-        "Staff training on inclusive design principles",
-        "Ongoing accessibility compliance support"
+        "Accessibility audits and compliance assessment",
+        "AI-powered accessibility testing implementation",
+        "Inclusive design recommendations",
+        "Staff training on accessibility best practices",
+        "Ongoing compliance guidance"
       ],
       deliverables: [
-        "Accessibility Audit Report",
-        "Inclusive Design Implementation Guide",
-        "AI-Powered Accessibility Monitoring Setup",
-        "Staff Training Program on Inclusion",
-        "Compliance Maintenance Plan"
+        "Accessibility Assessment Report",
+        "Implementation recommendations",
+        "AI-powered monitoring setup",
+        "Team training materials",
+        "Compliance roadmap"
       ],
-      timeline: "4-8 weeks",
-      investment: "Starting at $12,500"
+      timeline: "2-4 weeks",
+      investment: "Contact for quote"
     },
     {
       icon: Target,
-      title: "AI Technology Assessment",
-      description: "Evaluate AI tools, platforms, and vendors with accessibility lens to make informed technology decisions that serve all users.",
+      title: "Technology Evaluation",
+      description: "Evaluate AI tools, platforms, and vendors to help you make informed technology decisions that fit your business needs and budget.",
       features: [
-        "Accessibility-informed technology landscape analysis",
-        "Vendor evaluation with inclusion criteria",
-        "POC planning with accessibility testing",
-        "Cost-benefit analysis including accessibility ROI",
-        "Integration feasibility with existing accessibility tools"
+        "Technology landscape analysis",
+        "Vendor evaluation and comparison",
+        "Proof of concept planning and testing",
+        "Cost-benefit analysis and ROI projections",
+        "Integration feasibility assessment"
       ],
       deliverables: [
-        "Technology Assessment Report with Accessibility Focus",
-        "Vendor Comparison Matrix with Inclusion Scores",
-        "POC Results and Accessibility Recommendations",
-        "Total Cost of Ownership Analysis",
-        "Implementation Risk and Accessibility Assessment"
+        "Technology Assessment Report",
+        "Vendor comparison matrix",
+        "POC results and recommendations",
+        "Implementation cost analysis",
+        "Risk assessment and mitigation plan"
       ],
-      timeline: "2-4 weeks",
-      investment: "Starting at $5,500"
+      timeline: "1-3 weeks",
+      investment: "Contact for pricing"
     },
     {
       icon: Lightbulb,
-      title: "AI Innovation Workshops",
-      description: "Interactive workshops to identify accessible AI opportunities, generate inclusive ideas, and build disability-informed AI capabilities.",
+      title: "AI Discovery Workshops",
+      description: "Interactive workshops to help your team understand AI opportunities, generate practical ideas, and develop implementation strategies.",
       features: [
-        "Executive AI education with accessibility awareness",
-        "Inclusive use case identification workshops",
-        "Innovation brainstorming with disability perspective",
-        "Team capability assessment including accessibility skills",
-        "Quick wins identification with accessibility impact"
+        "AI education and awareness sessions",
+        "Use case identification workshops",
+        "Brainstorming and opportunity mapping",
+        "Team capability assessment",
+        "Quick wins identification and prioritization"
       ],
       deliverables: [
-        "Workshop Summary Reports with Accessibility Insights",
-        "Inclusive Use Case Opportunity Matrix",
-        "Accessibility-Informed Innovation Pipeline",
-        "Team Development Plan with Inclusion Training",
-        "Quick Wins Implementation Guide"
+        "Workshop summary and insights",
+        "Use case opportunity matrix",
+        "Implementation roadmap",
+        "Team development recommendations",
+        "Quick wins action plan"
       ],
       timeline: "1-2 weeks",
-      investment: "Starting at $3,500 per workshop"
+      investment: "Contact for details"
     }
   ];
 
   return (
     <div className="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">AI Modernization Services</h1>
+        <h1 className="text-4xl font-bold mb-4">AI Implementation Services</h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          Shepherd of the AI flock. Comprehensive consulting services spanning multiple revenue streams: 
-          AI strategy, custom development, digital transformation, and accessibility solutions. 
-          Ethical AI implementation with accessibility at the core.
+          Practical AI consulting and development services focused on solving real business problems. 
+          From strategy and assessment to custom development and integration, with accessibility 
+          built into every solution.
         </p>
       </div>
 
-      {/* Success Metrics */}
+      {/* Experience Highlights */}
       <div className="bg-muted/50 rounded-lg p-8 mb-12">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold mb-4">Proven Client Results</h2>
-          <p className="text-muted-foreground">Track record of delivering accessible AI modernization with measurable business impact</p>
+          <h2 className="text-2xl font-bold mb-4">Experience & Approach</h2>
+          <p className="text-muted-foreground">Building practical AI solutions with enterprise experience and accessibility focus</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">$85K+</div>
-            <div className="text-sm text-muted-foreground">Client Value Delivered</div>
+            <div className="text-3xl font-bold text-primary mb-2">10+</div>
+            <div className="text-sm text-muted-foreground">Years Technical Experience</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">92%</div>
-            <div className="text-sm text-muted-foreground">Project Success Rate</div>
+            <div className="text-3xl font-bold text-primary mb-2">80%</div>
+            <div className="text-sm text-muted-foreground">Automation Efficiency Gains</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">15+</div>
-            <div className="text-sm text-muted-foreground">Organizations Transformed</div>
+            <div className="text-3xl font-bold text-primary mb-2">3</div>
+            <div className="text-sm text-muted-foreground">Enterprise Companies</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-primary mb-2">100%</div>
@@ -251,35 +251,35 @@ export default function ServicesPage() {
 
       {/* Process Section */}
       <div className="bg-card rounded-lg p-8 mb-12">
-        <h2 className="text-2xl font-bold mb-6 text-center">Shepherd of the AI Flock Methodology</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">My Implementation Approach</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="text-center">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-primary font-bold">1</span>
             </div>
-            <h3 className="font-medium mb-2">Listen & Understand</h3>
-            <p className="text-sm text-muted-foreground">Deep discovery of your organization&apos;s needs, challenges, and accessibility requirements</p>
+            <h3 className="font-medium mb-2">Understand & Assess</h3>
+            <p className="text-sm text-muted-foreground">Analyze your current processes, challenges, and identify practical AI opportunities</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-primary font-bold">2</span>
             </div>
-            <h3 className="font-medium mb-2">Strategic Design</h3>
-            <p className="text-sm text-muted-foreground">Craft ethical AI solutions that align with your values and serve all users inclusively</p>
+            <h3 className="font-medium mb-2">Plan & Design</h3>
+            <p className="text-sm text-muted-foreground">Create practical solutions that align with your business goals and accessibility requirements</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-primary font-bold">3</span>
             </div>
-            <h3 className="font-medium mb-2">Implementation</h3>
-            <p className="text-sm text-muted-foreground">Build and deploy solutions with continuous testing and accessibility validation</p>
+            <h3 className="font-medium mb-2">Build & Test</h3>
+            <p className="text-sm text-muted-foreground">Develop solutions with continuous testing for functionality and accessibility</p>
           </div>
           <div className="text-center">
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-primary font-bold">4</span>
             </div>
-            <h3 className="font-medium mb-2">Nurture & Support</h3>
-            <p className="text-sm text-muted-foreground">Ongoing guidance to ensure AI solutions continue serving your organization effectively</p>
+            <h3 className="font-medium mb-2">Deploy & Support</h3>
+            <p className="text-sm text-muted-foreground">Implementation guidance and ongoing support to ensure successful adoption</p>
           </div>
         </div>
       </div>
