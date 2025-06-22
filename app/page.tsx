@@ -29,12 +29,12 @@ export default function Home() {
               AI Implementation & Strategic Guidance
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 glow-text">
-              Bryan Thompson<br />AI Implementation Specialist & Shepherd of Innovation
+              Bryan Thompson<br />AI Developer & Business Analyst
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              I work with organizations on practical AI implementation with accessibility-first principles. 
-              My focus is on exploring how AI might help businesses while ensuring technology is 
-              accessible to everyone. Background in development and enterprise systems.
+              Business analyst with experience at PayPal and Fiserv, now focused on practical AI implementation. 
+              I build AI solutions that solve real business problems, with a background in enterprise systems 
+              and a commitment to making technology accessible to everyone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="glow" asChild>
@@ -68,20 +68,20 @@ export default function Home() {
           {/* Technical Capabilities */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">5+</div>
-              <div className="text-sm text-muted-foreground">Years AI Development Experience</div>
+              <div className="text-4xl font-bold text-primary mb-2">10+</div>
+              <div className="text-sm text-muted-foreground">Years Technical Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">ROI</div>
-              <div className="text-sm text-muted-foreground">Focused Implementation</div>
+              <div className="text-4xl font-bold text-primary mb-2">3</div>
+              <div className="text-sm text-muted-foreground">Enterprise Companies</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary mb-2">Real</div>
+              <div className="text-sm text-muted-foreground">Business Solutions</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">WCAG</div>
-              <div className="text-sm text-muted-foreground">Accessibility Compliance</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">24/7</div>
-              <div className="text-sm text-muted-foreground">Production Support</div>
+              <div className="text-sm text-muted-foreground">Accessibility Focus</div>
             </div>
           </div>
         </div>
@@ -187,35 +187,35 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-background rounded-lg p-6 shadow-sm border">
-              <h3 className="font-semibold text-lg mb-3">AI Workflow Platform</h3>
+              <h3 className="font-semibold text-lg mb-3">Triepod.AI Platform</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Built platform for automating business workflows using AI. Integrated multiple 
-                AI providers for reliability and implemented vector database for document processing.
+                Personal project building an agentic RAG platform with contract-based plugin system. 
+                Experimenting with vector database optimization and multi-LLM integration for workflow automation.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Technologies:</strong> Python, OpenAI API, Vector Databases
+                <strong>Technologies:</strong> Python, OpenAI API, Pinecone, Docker
               </div>
             </div>
             
             <div className="bg-background rounded-lg p-6 shadow-sm border">
-              <h3 className="font-semibold text-lg mb-3">Code Analysis Tools</h3>
+              <h3 className="font-semibold text-lg mb-3">VectorCodeLens</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Developed semantic search system for large codebases. Solved common developer 
-                workflow challenges through intelligent code understanding and retrieval.
+                Side project creating semantic code search across large codebases using vector embeddings. 
+                Learning experience with LLM abstraction layers and context-preserving chunking algorithms.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Technologies:</strong> JavaScript, TypeScript, LLM Integration
+                <strong>Technologies:</strong> JavaScript, TypeScript, Qdrant, Node.js
               </div>
             </div>
             
             <div className="bg-background rounded-lg p-6 shadow-sm border">
-              <h3 className="font-semibold text-lg mb-3">Data Reconciliation System</h3>
+              <h3 className="font-semibold text-lg mb-3">Balancing Act</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Created AI-powered tools for financial data matching and reconciliation. 
-                Reduced manual processing through intelligent pattern recognition.
+                Work project developing financial data reconciliation tools using semantic matching. 
+                Applied machine learning techniques to improve cross-platform data matching accuracy.
               </p>
               <div className="text-xs text-muted-foreground">
-                <strong>Technologies:</strong> Python, AI Pattern Matching, Data Processing
+                <strong>Technologies:</strong> Python, pandas, SentenceTransformers, PostgreSQL
               </div>
             </div>
           </div>
@@ -286,29 +286,29 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-background rounded-lg p-6 shadow-sm border">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                  <h3 className="font-semibold text-lg">Technical Analyst & AI Developer</h3>
-                  <div className="text-sm text-muted-foreground">Current</div>
+                  <h3 className="font-semibold text-lg">Business Analyst - AI/ML Focus</h3>
+                  <div className="text-sm text-muted-foreground">Lodestar Technologies, 2024-Present</div>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
-                  Currently focused on AI-powered business automation and data integration systems. 
-                  Working with enterprise platforms to implement practical AI solutions.
+                  Developing Python-based financial data integration platform with semantic matching algorithms. 
+                  Building AI automation tools that reduce manual reconciliation work for enterprise clients.
                 </p>
                 <div className="text-xs text-muted-foreground">
-                  Technologies: Python, AI APIs, Vector Databases, Financial Systems
+                  Technologies: Python, Machine Learning, Financial Data Processing
                 </div>
               </div>
               
               <div className="bg-background rounded-lg p-6 shadow-sm border">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                  <h3 className="font-semibold text-lg">Business Intelligence & Systems Integration</h3>
-                  <div className="text-sm text-muted-foreground">2019-2024</div>
+                  <h3 className="font-semibold text-lg">Business Intelligence Analyst</h3>
+                  <div className="text-sm text-muted-foreground">PayPal (2023-2024), Fiserv (2019-2023)</div>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
-                  Enterprise-level experience with financial platforms and data transformation. 
-                  Developed automation frameworks and integrated complex business systems.
+                  Worked on data transformation and automation frameworks for financial platforms. 
+                  Experience with SAP integration, process automation, and technical documentation systems.
                 </p>
                 <div className="text-xs text-muted-foreground">
-                  Companies: PayPal, Fiserv • Focus: Data Analysis, Process Automation
+                  Focus: Data Analysis, Process Automation, Enterprise Systems
                 </div>
               </div>
               
