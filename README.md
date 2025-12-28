@@ -3,26 +3,36 @@
 
 ## MCP Tool Annotation Initiative (Dec 2024)
 
-**100+ PRs submitted in 7 days** | **20+ merged** (80+ in review pipelines)
-
-Built an automation framework for systematic MCP tool annotation improvements across the ecosystem:
+Systematic campaign to improve MCP ecosystem safety through tool annotations.
 
 | Metric | Value |
 |--------|-------|
-| PRs Submitted | 100+ |
-| Repositories | 10+ distinct MCP servers |
-| Velocity | ~14 PRs/day |
-| Focus | `readOnlyHint`, `destructiveHint`, `idempotentHint`, `title` |
+| **PRs Created** | 93 |
+| **Merged** | 20 (21.5%) |
+| **Repositories** | 107 distinct MCP servers |
+| **Tools Annotated** | 1,887 |
+| **Annotations** | `readOnlyHint`, `destructiveHint`, `idempotentHint`, `title` |
 
-**Why it matters:** Tool annotations help LLMs make safer, more informed decisions about tool usage.
+**Why it matters:** Tool annotations help LLMs make safer, more informed decisions about tool usage. Read-only tools can be auto-approved, destructive tools trigger confirmation prompts.
 
-[View Merged PRs](https://github.com/search?q=author:triepod-ai+is:pr+is:merged) | [View All PRs](https://github.com/search?q=author:triepod-ai+is:pr)
+[View Merged PRs](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged) | [View All PRs](https://github.com/search?q=author%3Atriepod-ai+is%3Apr)
 
-### Notable Contributions
-- [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) - Notion's official MCP server
-- [XcodeBuildMCP](https://github.com/cameroncooke/XcodeBuildMCP) - 66 tools annotated
-- [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) - Jupyter notebook integration
-- [mcp-server-chart](https://github.com/antvis/mcp-server-chart) - AntV chart generation
+### Top Contributions by Tools Annotated
+
+| Repository | Tools | Status |
+|------------|-------|--------|
+| [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 151 | Open |
+| [klavis](https://github.com/Klavis-AI/klavis) | 121 | Open |
+| [telegram-mcp](https://github.com/chigwell/telegram-mcp) | 78 | Merged |
+| [awslabs/mcp](https://github.com/awslabs/mcp) | 72 | Open |
+| [brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | 63 | Open |
+| [kom](https://github.com/weibaohui/kom) | 60 | Merged |
+| [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 19 | Merged |
+| [mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 26 | Merged |
+
+### Merged PRs (20)
+
+`github/github-mcp-server` `notion-mcp-server` `excel-mcp-server` `slack-mcp-server` `kom` `k8m` `telegram-mcp` `youtube-transcript` `intlayer` `tfmcp` `1mcp-app/agent` `beelzebub` `xiaohongshu-mcp` `mcp-server-chart` `shadcn-ui-mcp-server` `jupyter-mcp-server` `mcpproxy-go` `XcodeBuildMCP` `toolhive` `mcp-server-kubernetes`
 
 ---
 
