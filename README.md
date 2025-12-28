@@ -30,9 +30,20 @@ Systematic campaign to improve MCP ecosystem safety through tool annotations.
 | [mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 26 | Merged |
 | [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 19 | Merged |
 
+### Top Merges by Stars
+
+| Repository | Stars | PR |
+|------------|------:|:--:|
+| [github/github-mcp-server](https://github.com/github/github-mcp-server) | 25,477 ⭐ | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,700 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
+| [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 3,632 ⭐ | [#169](https://github.com/makenotion/notion-mcp-server/pull/169) |
+| [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3,378 ⭐ | [#249](https://github.com/antvis/mcp-server-chart/pull/249) |
+| [cameroncooke/XcodeBuildMCP](https://github.com/cameroncooke/XcodeBuildMCP) | 3,175 ⭐ | [#152](https://github.com/cameroncooke/XcodeBuildMCP/pull/152) |
+| [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | 3,029 ⭐ | [#110](https://github.com/haris-musa/excel-mcp-server/pull/110) |
+
 ### Merged External PRs (20)
 
-`github/github-mcp-server` `notion-mcp-server` `excel-mcp-server` `slack-mcp-server` `kom` `k8m` `telegram-mcp` `youtube-transcript` `intlayer` `tfmcp` `1mcp-app/agent` `beelzebub` `xiaohongshu-mcp` `mcp-server-chart` `shadcn-ui-mcp-server` `jupyter-mcp-server` `mcpproxy-go` `XcodeBuildMCP` `toolhive` `mcp-server-kubernetes`
+`github-mcp-server` `notion-mcp-server` `excel-mcp-server` `slack-mcp-server` `kom` `k8m` `telegram-mcp` `youtube-transcript` `intlayer` `tfmcp` `1mcp-app/agent` `beelzebub` `xiaohongshu-mcp` `mcp-server-chart` `shadcn-ui-mcp-server` `jupyter-mcp-server` `mcpproxy-go` `XcodeBuildMCP` `toolhive` `mcp-server-kubernetes`
 
 ---
 
