@@ -7,11 +7,11 @@ Systematic campaign to improve MCP ecosystem safety through tool annotations.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Created** | 113 |
-| **External Contributions** | 104 PRs to 99 repos |
+| **MCP Servers Touched** | **150** 🎯 |
+| **PRs Created** | 115+ |
 | **Merged** | 29 total (20 external) |
-| **Tools Annotated** | 1,887+ |
-| **Annotations** | `readOnlyHint`, `destructiveHint`, `idempotentHint`, `title` |
+| **Tools Annotated** | 1,900+ |
+| **Annotations** | `readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`, `title` |
 
 **Why it matters:** Tool annotations help LLMs make safer, more informed decisions about tool usage. Read-only tools can be auto-approved, destructive tools trigger confirmation prompts.
 
@@ -28,6 +28,7 @@ Systematic campaign to improve MCP ecosystem safety through tool annotations.
 | [brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | 63 | Open |
 | [kom](https://github.com/weibaohui/kom) | 60 | Merged |
 | [mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 26 | Merged |
+| [elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp) | 24 | Open |
 | [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 19 | Merged |
 
 ### Top Merges by Stars
