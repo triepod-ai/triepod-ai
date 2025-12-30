@@ -3,11 +3,11 @@
 
 ## MCP Tool Annotation Initiative (Dec 2025)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 33 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 35 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 33 external repositories |
+| **PRs Merged** | 35 external repositories |
 | **Tools Annotated** | 2,100+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
@@ -28,14 +28,16 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Repository | Stars | PR |
 |------------|------:|:--:|
+| [upstash/context7](https://github.com/upstash/context7) | 40,492 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
 | [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,525 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
 | [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,700 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
 | [u14app/deep-research](https://github.com/u14app/deep-research) | 4,279 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
+| [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 3,870 ⭐ | [#789](https://github.com/sooperset/mcp-atlassian/pull/789) |
 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3,378 ⭐ | [#249](https://github.com/antvis/mcp-server-chart/pull/249) |
 | [cameroncooke/XcodeBuildMCP](https://github.com/cameroncooke/XcodeBuildMCP) | 3,175 ⭐ | [#152](https://github.com/cameroncooke/XcodeBuildMCP/pull/152) |
 | [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | 3,029 ⭐ | [#110](https://github.com/haris-musa/excel-mcp-server/pull/110) |
 
-[View all 33 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged)
+[View all 35 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged)
 
 ---
 
