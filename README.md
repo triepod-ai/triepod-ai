@@ -3,48 +3,39 @@
 
 ## MCP Tool Annotation Initiative (Dec 2025)
 
-Systematic campaign to improve MCP ecosystem safety through tool annotations.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 33 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **MCP Servers Touched** | **150** 🎯 |
-| **PRs Created** | 115+ |
-| **Merged** | 29 total (20 external) |
-| **Tools Annotated** | 1,900+ |
-| **Annotations** | `readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`, `title` |
+| **PRs Merged** | 33 external repositories |
+| **Tools Annotated** | 2,100+ |
+| **Impact** | Safer LLM tool execution across the ecosystem |
 
-**Why it matters:** Tool annotations help LLMs make safer, more informed decisions about tool usage. Read-only tools can be auto-approved, destructive tools trigger confirmation prompts.
+Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe operations from destructive ones, enabling auto-approval for queries while prompting confirmation for writes.
 
-[View Merged PRs](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged) | [View All PRs](https://github.com/search?q=author%3Atriepod-ai+is%3Apr)
+### Enterprise Contributions
 
-### Top Contributions by Tools Annotated
+| Organization | Repository | PR |
+|--------------|------------|:--:|
+| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| **Azure** | [mcp-kubernetes](https://github.com/Azure/mcp-kubernetes) | [#98](https://github.com/Azure/mcp-kubernetes/pull/98) |
+| **Azure** | [aks-mcp](https://github.com/Azure/aks-mcp) | [#279](https://github.com/Azure/aks-mcp/pull/279) |
+| **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
+| **Notion** | [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) (3.6k ⭐) | [#169](https://github.com/makenotion/notion-mcp-server/pull/169) |
+| **Razorpay** | [razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server) | [#73](https://github.com/razorpay/razorpay-mcp-server/pull/73) |
 
-| Repository | Tools | Status |
-|------------|-------|--------|
-| [hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 151 | Open |
-| [klavis](https://github.com/Klavis-AI/klavis) | 121 | Open |
-| [telegram-mcp](https://github.com/chigwell/telegram-mcp) | 78 | Merged |
-| [awslabs/mcp](https://github.com/awslabs/mcp) | 72 | Open |
-| [brightdata-mcp](https://github.com/brightdata/brightdata-mcp) | 63 | Open |
-| [kom](https://github.com/weibaohui/kom) | 60 | Merged |
-| [mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 26 | Merged |
-| [elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp) | 24 | Open |
-| [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 19 | Merged |
-
-### Top Merges by Stars
+### High-Impact Community Contributions
 
 | Repository | Stars | PR |
 |------------|------:|:--:|
-| [github/github-mcp-server](https://github.com/github/github-mcp-server) | 25,477 ⭐ | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,525 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
 | [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,700 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
-| [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) | 3,632 ⭐ | [#169](https://github.com/makenotion/notion-mcp-server/pull/169) |
+| [u14app/deep-research](https://github.com/u14app/deep-research) | 4,279 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
 | [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3,378 ⭐ | [#249](https://github.com/antvis/mcp-server-chart/pull/249) |
 | [cameroncooke/XcodeBuildMCP](https://github.com/cameroncooke/XcodeBuildMCP) | 3,175 ⭐ | [#152](https://github.com/cameroncooke/XcodeBuildMCP/pull/152) |
 | [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | 3,029 ⭐ | [#110](https://github.com/haris-musa/excel-mcp-server/pull/110) |
 
-### Merged External PRs (20)
-
-`github-mcp-server` `notion-mcp-server` `excel-mcp-server` `slack-mcp-server` `kom` `k8m` `telegram-mcp` `youtube-transcript` `intlayer` `tfmcp` `1mcp-app/agent` `beelzebub` `xiaohongshu-mcp` `mcp-server-chart` `shadcn-ui-mcp-server` `jupyter-mcp-server` `mcpproxy-go` `XcodeBuildMCP` `toolhive` `mcp-server-kubernetes`
+[View all 33 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged)
 
 ---
 
