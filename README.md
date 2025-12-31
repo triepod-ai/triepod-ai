@@ -8,7 +8,7 @@ Systematic campaign to improve MCP ecosystem safety by adding tool annotations a
 | Metric | Value |
 |--------|-------|
 | **PRs Merged** | 47 external repositories |
-| **Combined Reach** | 134,700+ stars |
+| **Combined Reach** | 137,500+ stars |
 | **Tools Annotated** | 2,100+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
@@ -18,7 +18,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Organization | Repository | PR |
 |--------------|------------|:--:|
-| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25.5k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
 | **Azure** | [mcp-kubernetes](https://github.com/Azure/mcp-kubernetes) | [#98](https://github.com/Azure/mcp-kubernetes/pull/98) |
 | **Azure** | [aks-mcp](https://github.com/Azure/aks-mcp) | [#279](https://github.com/Azure/aks-mcp/pull/279) |
 | **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
@@ -29,8 +29,8 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Repository | Stars | PR |
 |------------|------:|:--:|
-| [upstash/context7](https://github.com/upstash/context7) | 40,492 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
-| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,525 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
+| [upstash/context7](https://github.com/upstash/context7) | 40,556 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
+| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,589 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
 | [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,700 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
 | [u14app/deep-research](https://github.com/u14app/deep-research) | 4,279 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
 | [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 3,870 ⭐ | [#789](https://github.com/sooperset/mcp-atlassian/pull/789) |
