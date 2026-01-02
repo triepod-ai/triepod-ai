@@ -3,13 +3,13 @@
 
 ## MCP Tool Annotation Initiative (Dec 2025)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 42 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 45 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 42 external repositories |
-| **Combined Reach** | 137,000+ stars |
-| **Tools Annotated** | 1,200+ |
+| **PRs Merged** | 45 external repositories |
+| **Combined Reach** | 187,000+ stars |
+| **Tools Annotated** | 1,900+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
 Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe operations from destructive ones, enabling auto-approval for queries while prompting confirmation for writes.
@@ -29,16 +29,16 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Repository | Stars | PR |
 |------------|------:|:--:|
-| [upstash/context7](https://github.com/upstash/context7) | 40,619 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
-| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,604 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
-| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,768 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
-| [u14app/deep-research](https://github.com/u14app/deep-research) | 4,287 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
-| [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 3,875 ⭐ | [#789](https://github.com/sooperset/mcp-atlassian/pull/789) |
-| [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3,407 ⭐ | [#249](https://github.com/antvis/mcp-server-chart/pull/249) |
-| [cameroncooke/XcodeBuildMCP](https://github.com/cameroncooke/XcodeBuildMCP) | 3,228 ⭐ | [#152](https://github.com/cameroncooke/XcodeBuildMCP/pull/152) |
-| [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | 3,047 ⭐ | [#110](https://github.com/haris-musa/excel-mcp-server/pull/110) |
+| [upstash/context7](https://github.com/upstash/context7) | 40,677 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 24,540 ⭐ | [#1543](https://github.com/eyaltoledano/claude-task-master/pull/1543) |
+| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,621 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
+| [oraios/serena](https://github.com/oraios/serena) | 17,990 ⭐ | [#862](https://github.com/oraios/serena/pull/862) |
+| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,777 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
+| [u14app/deep-research](https://github.com/u14app/deep-research) | 4,288 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
+| [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 3,878 ⭐ | [#789](https://github.com/sooperset/mcp-atlassian/pull/789) |
+| [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3,427 ⭐ | [#249](https://github.com/antvis/mcp-server-chart/pull/249) |
 
-[View all 42 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged)
+[View all 45 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
 ---
 
