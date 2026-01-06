@@ -8,7 +8,7 @@ Systematic campaign to improve MCP ecosystem safety by adding tool annotations a
 | Metric | Value |
 |--------|-------|
 | **PRs Merged** | 52 external repositories |
-| **Combined Reach** | 211,000+ stars |
+| **Combined Reach** | 212,000+ stars |
 | **Tools Annotated** | 1,900+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
@@ -18,26 +18,26 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 
 | Organization | Repository | PR |
 |--------------|------------|:--:|
-| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25.6k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
+| **GitHub** | [github-mcp-server](https://github.com/github/github-mcp-server) (25.7k ⭐) | [#1665](https://github.com/github/github-mcp-server/pull/1665) |
 | **Azure** | [mcp-kubernetes](https://github.com/Azure/mcp-kubernetes) | [#98](https://github.com/Azure/mcp-kubernetes/pull/98) |
 | **Azure** | [aks-mcp](https://github.com/Azure/aks-mcp) | [#279](https://github.com/Azure/aks-mcp/pull/279) |
-| **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
-| **Notion** | [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) (3.6k ⭐) | [#169](https://github.com/makenotion/notion-mcp-server/pull/169) |
+| **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3.1k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
+| **Notion** | [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) (3.7k ⭐) | [#169](https://github.com/makenotion/notion-mcp-server/pull/169) |
 | **Razorpay** | [razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server) | [#73](https://github.com/razorpay/razorpay-mcp-server/pull/73) |
 
 ### High-Impact Community Contributions
 
 | Repository | Stars | PR |
 |------------|------:|:--:|
-| [upstash/context7](https://github.com/upstash/context7) | 40,693 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
-| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 24,540 ⭐ | [#1543](https://github.com/eyaltoledano/claude-task-master/pull/1543) |
-| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,624 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
-| [oraios/serena](https://github.com/oraios/serena) | 17,990 ⭐ | [#862](https://github.com/oraios/serena/pull/862) |
-| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 11,286 ⭐ | [#512](https://github.com/czlonkowski/n8n-mcp/pull/512) |
-| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,780 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
-| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,276 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
+| [upstash/context7](https://github.com/upstash/context7) | 40,990 ⭐ | [#1282](https://github.com/upstash/context7/pull/1282) |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 24,644 ⭐ | [#1543](https://github.com/eyaltoledano/claude-task-master/pull/1543) |
+| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 21,732 ⭐ | [#2777](https://github.com/jlowin/fastmcp/pull/2777) |
+| [oraios/serena](https://github.com/oraios/serena) | 18,149 ⭐ | [#862](https://github.com/oraios/serena/pull/862) |
+| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 11,383 ⭐ | [#512](https://github.com/czlonkowski/n8n-mcp/pull/512) |
+| [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 7,874 ⭐ | [#347](https://github.com/xpzouying/xiaohongshu-mcp/pull/347) |
+| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,314 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
 | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 4,610 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
-| [u14app/deep-research](https://github.com/u14app/deep-research) | 4,288 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
+| [u14app/deep-research](https://github.com/u14app/deep-research) | 4,301 ⭐ | [#149](https://github.com/u14app/deep-research/pull/149) |
 
 [View all 52 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
