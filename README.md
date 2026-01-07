@@ -24,6 +24,8 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | **IBM** | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) (3.1k ⭐) | [#1779](https://github.com/IBM/mcp-context-forge/pull/1779) |
 | **Notion** | [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) (3.7k ⭐) | [#169](https://github.com/makenotion/notion-mcp-server/pull/169) |
 | **Razorpay** | [razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server) | [#73](https://github.com/razorpay/razorpay-mcp-server/pull/73) |
+| **Apify** | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | [#380](https://github.com/apify/apify-mcp-server/pull/380) |
+| **ElevenLabs** | [elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp) | [#87](https://github.com/elevenlabs/elevenlabs-mcp/pull/87) |
 
 ### High-Impact Community Contributions
 
