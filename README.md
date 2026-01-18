@@ -1,6 +1,16 @@
 # Bryan Thompson
 **MCP Infrastructure Engineer | AI Tooling Specialist**
 
+## 🚀 Build an MCP Server? Get It Listed!
+
+If you've built an MCP server and want it hosted on the **Anthropic MCP Directory** for single-click installation in Claude Desktop:
+
+📋 **[Submission Form](https://docs.google.com/forms/d/e/1FAIpQLScHtjkiCNjpqnWtFLIQStChXlvVcvX8NPXkMfjtYPDPymgang/viewform)** — Submit your server for review
+
+📖 **[Submission Guidelines](https://support.claude.com/en/articles/12922832-local-mcp-server-submission-guide)** — Requirements and best practices
+
+---
+
 ## MCP Tool Annotation Initiative (Dec 2025 - Jan 2026)
 
 Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 59 open source projects.
