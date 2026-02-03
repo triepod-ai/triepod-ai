@@ -13,11 +13,11 @@ If you've built an MCP server and want it hosted on the **Anthropic MCP Director
 
 ## MCP Tool Annotation Initiative (Dec 2025 - Jan 2026)
 
-Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 67 open source projects.
+Systematic campaign to improve MCP ecosystem safety by adding tool annotations across 68 open source projects.
 
 | Metric | Value |
 |--------|-------|
-| **PRs Merged** | 67 external repositories |
+| **PRs Merged** | 68 external repositories |
 | **Combined Reach** | 268,900+ stars |
 | **Tools Annotated** | 1,300+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
@@ -55,7 +55,7 @@ Tool annotations (`readOnlyHint`, `destructiveHint`) help LLMs distinguish safe 
 | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 5,370 ⭐ | [#1242](https://github.com/ThinkInAIXYZ/deepchat/pull/1242) |
 | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 5,127 ⭐ | [#480](https://github.com/CoplayDev/unity-mcp/pull/480) |
 
-[View all 67 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
+[View all 68 merged PRs →](https://github.com/search?q=author%3Atriepod-ai+is%3Apr+is%3Amerged+-repo%3Atriepod-ai%2F)
 
 ---
 
