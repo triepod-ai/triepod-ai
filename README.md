@@ -18,7 +18,7 @@ Systematic campaign to improve MCP ecosystem safety by adding tool annotations a
 | Metric | Value |
 |--------|-------|
 | **PRs Merged** | 68 external repositories |
-| **Combined Reach** | 268,900+ stars |
+| **Combined Reach** | 273,000+ stars |
 | **Tools Annotated** | 1,300+ |
 | **Impact** | Safer LLM tool execution across the ecosystem |
 
